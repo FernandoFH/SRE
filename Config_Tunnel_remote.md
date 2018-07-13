@@ -10,7 +10,9 @@ install *openssh-server*
 `sudo apt-get install openssh-server`
 
 set in _/etc/ssh/sshd_config_:
+
 PasswordAuthentication yes
+
 GatewayPorts yes
 
 After running the process:
