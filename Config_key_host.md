@@ -3,13 +3,13 @@ in path: `cd /home/user/.ssh`
 create file: `vi config`
 
 pates in the file: 
-`Host _Host_Name_`
+`Host Host_Name`
 
-  `HostName _ip_host_`
+  `HostName ip_host`
   
   `Port 22`
   
-  `User _user_`
+  `User user`
   
   `IdentityFile ~/.ssh/anything.key`
 
