@@ -3,7 +3,7 @@
 
 _platzi to be like host in .ssh/config_ 
 
-- Access the local machineEn 
+- Access the local machinen 
 
 * In local machine:
 install *openssh-server*
