@@ -2,7 +2,8 @@ in path: `cd /home/user/.ssh`
 
 create file: `vi config`
 
-pates in the file: 
+paste in the file:
+
 `Host Host_Name`
 
   `HostName ip_host`
