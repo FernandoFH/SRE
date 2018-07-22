@@ -4,18 +4,18 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 ### most used command 
 
-git --version 
+`git --version`
 
-git status 
+`git status`
 
-git clone <link_Clone>
+`git clone <link_Clone>`
 
-git add/rm  <new_file>
+`git add/rm  <file>` or `git add .`
 
-git commit -m <a_good_comment>
+`git commit -m <a_good_comment>`
 
-git push
+`git push`
 
-git pull --rebase origin master
+`git pull --rebase origin master`
 
-git push origin master
+`git push origin master`
