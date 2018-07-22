@@ -1,8 +1,8 @@
-### create ssh key 
+### Create ssh key 
 
 ssh-keygen -t rsa -b 4096 -C "mail"
 
-### most used command 
+### Most used command 
 
 `git --version`
 
