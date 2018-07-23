@@ -30,11 +30,15 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 Listar tag: `git tag -l`
 
+### Log
+
 Log: `git log --oneline --graph`
 
 SuperLog: `git config --global alias.superlog "log --graph --abbrev-commit --date=relative --all --format=format:'%C(bold blue)%h%C(reset) %C(auto,magenta)%G? %C(bold green)(%>(18,trunc)%aD)%C(reset) %C(bold blue)[%<(10,trunc)%aN]%Creset - %s%C(reset) %C(bold yellow)%d%C(reset)'"`
 
-Diff: `git diff [SHA 1 Vesion1] [SHA 1 Vesion2]`
+### Diff
+
+`git diff [SHA 1 Vesion1] [SHA 1 Vesion2]`
 
 Delete last commit (send the files in stage): `git reset -- soft [SHA 1]`
 
