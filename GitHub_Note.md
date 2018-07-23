@@ -4,7 +4,7 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 ### Most used command 
 
-## Create repository: `git init <Repository_Name>`
+### Create repository: `git init <Repository_Name>`
 
 `git --version`
 
@@ -24,22 +24,20 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 `git log` 
 
-#tag
+###tag
 
 `git tag -a 0.5 -m 'Version_name'`
 
-# Listar tag: `git tag -l`
+Listar tag: `git tag -l`
 
-# Log: `git log --oneline --graph`
+Log: `git log --oneline --graph`
 
-# SuperLog: `git config --global alias.superlog "log --graph --abbrev-commit --date=relative --all --format=format:'%C(bold blue)%h%C(reset) %C(auto,magenta)%G? %C(bold green)(%>(18,trunc)%aD)%C(reset) %C(bold blue)[%<(10,trunc)%aN]%Creset - %s%C(reset) %C(bold yellow)%d%C(reset)'"`
+SuperLog: `git config --global alias.superlog "log --graph --abbrev-commit --date=relative --all --format=format:'%C(bold blue)%h%C(reset) %C(auto,magenta)%G? %C(bold green)(%>(18,trunc)%aD)%C(reset) %C(bold blue)[%<(10,trunc)%aN]%Creset - %s%C(reset) %C(bold yellow)%d%C(reset)'"`
 
-# Diff: `git diff [SHA 1 Vesion1] [SHA 1 Vesion2]`
+Diff: `git diff [SHA 1 Vesion1] [SHA 1 Vesion2]`
 
-# Delete last commit (send the files in stage): `git reset -- soft [SHA 1]`
+Delete last commit (send the files in stage): `git reset -- soft [SHA 1]`
 
-# Delete last commit (send the files in working): `git reset -- mixed [SHA 1]`
+Delete last commit (send the files in working): `git reset -- mixed [SHA 1]`
 
-# Delete last commit (delete files): `git reset --hard [SHA 1]`
-
-
+Delete last commit (delete files): `git reset --hard [SHA 1]`
