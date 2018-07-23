@@ -22,8 +22,6 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 `git push origin master`
 
-`git log` 
-
 ### tag
 
 `git tag -a 0.5 -m 'Version_name'`
@@ -32,7 +30,7 @@ Listar tag: `git tag -l`
 
 ### Log
 
-Log: `git log --oneline --graph`
+`git log --oneline --graph`
 
 SuperLog: `git config --global alias.superlog "log --graph --abbrev-commit --date=relative --all --format=format:'%C(bold blue)%h%C(reset) %C(auto,magenta)%G? %C(bold green)(%>(18,trunc)%aD)%C(reset) %C(bold blue)[%<(10,trunc)%aN]%Creset - %s%C(reset) %C(bold yellow)%d%C(reset)'"`
 
@@ -45,3 +43,32 @@ Delete last commit (send the files in stage): `git reset -- soft [SHA 1]`
 Delete last commit (send the files in working): `git reset -- mixed [SHA 1]`
 
 Delete last commit (delete files): `git reset --hard [SHA 1]`
+
+### Branch
+
+create branch: `git branch [name]` se crea una nueva rama
+-l: list branch
+-d/-D [name]: delete branch
+-m [name] [new_name]: rename branch
+
+### checkout
+
+move in branch: `git checkout [nombre/sha1]`
+
+create new branch without command branch: ´git checkout -b [branch]´
+
+git merge [branch]
+
+### Stash
+
+Been to make unconfirmed tests `git stash`
+
+`git stash list`
+
+`git stash drop stash@{num}`
+
+`git stash apply`
+
+### Cherry pick
+
+choose the commits in the branch: `git cherry-pick [SHA 1]`
