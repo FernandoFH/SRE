@@ -24,7 +24,7 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 `git log` 
 
-###tag
+### tag
 
 `git tag -a 0.5 -m 'Version_name'`
 
