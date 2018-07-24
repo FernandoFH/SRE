@@ -4,7 +4,9 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 ### Most used command 
 
-### Create repository: `git init <Repository_Name>`
+### Create repository: 
+
+`git init <Repository_Name>`
 
 `git --version`
 
@@ -22,7 +24,7 @@ ssh-keygen -t rsa -b 4096 -C "mail"
 
 `git push origin master`
 
-### tag
+### Tag
 
 `git tag -a 0.5 -m 'Version_name'`
 
@@ -72,3 +74,13 @@ Been to make unconfirmed tests `git stash`
 ### Cherry pick
 
 choose the commits in the branch: `git cherry-pick [SHA 1]`
+
+### Remote
+
+`git remote add origin [SSH/HTTPS]`
+
+`git remote -v`
+
+`git remote add origin <>`
+
+`git remote remove [origin]`
