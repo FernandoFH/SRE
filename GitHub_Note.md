@@ -1,7 +1,3 @@
-### Create ssh key 
-
-ssh-keygen -t rsa -b 4096 -C "mail"
-
 ### Most used command 
 
 ### Create repository: 
