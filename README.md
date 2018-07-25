@@ -1,2 +1,2 @@
 # DevOps
-code and examples in my training to DevOps 
+Code and examples in my training to DevOps 
