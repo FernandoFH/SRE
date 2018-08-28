@@ -1,6 +1,5 @@
 <p align="center">Fundamentos de Arquitectura Software.</p>
-***
-
+--- 
 <p align="center">
     <b><a href="README.md#what-has-inside">What has inside</a></b>
     |
