@@ -1,4 +1,4 @@
-<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
+<p align="center">Fundamentos de Arquitectura Software.</p>
 ***
 
 <p align="center">
