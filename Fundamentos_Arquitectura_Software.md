@@ -3,9 +3,37 @@
 
 ### El proceso de desarrollo de software
 
-- [Jekyll](https://jekyllrb.com/)
-- Tests with [Travis](https://travis-ci.org/)
-- No JS. :sunglasses:
+#### Etapas del proceso de desarrollo de software
+
+El proceso de desarrollo tradicional tiene etapas muy marcadas, que tienen entradas, procesos y salidas que funcionan como entradas de la siguiente etapa.
+
+- Análisis de requerimientos: Todo nace de un disparador que nos crea la necesidad de crear un artefacto o un sistema. Necesitamos entender cuál es el problema que queremos resolver. Hay requerimientos de negocio, requerimientos funcionales, requerimientos no funcionales.
+
+- Diseño de la solución: Análisis profundo de los problemas para trabajar en conjunto y plantear posibles soluciones. El resultado de esto debe ser el detalle de la solución, a través de requerimientos, modelado, etc.
+
+- Desarrollo y evolución: Implementación de la solución, para garantizar que lo que se esta construyendo es lo que se espera. Al finalizar esta etapa tendremos un artefacto de software.
+
+- Despliegue: Aquí vamos a necesitar de infraestructura y de roles de operación para poder poner el artefacto a disponibilidad.
+
+- Mantenimiento y evolución: Desarrollo + despliegue + mantenimiento, en esta etapa estamos atentos a posible mejoras que se hacen al sistema. En esta etapa el software se mantiene hasta que el software ya deja de ser necesario.
+
+#### Dificultades en el desarrollo de software
+
+**Esenciales:** Se dividen en 4 tipos de problemas:
+
+- Complejidad: cuando un dominio de un problema es complejo en sí mismo. En el caso de adiciones y todas las acciones que conlleven al sistema a ser más complejo. _Manejo del problema de complejidad:_ No desarrollar: Comprar - OSS
+
+- Conformidad: en qué contexto se usa el software y cómo debe adecuarse al mismo. Se incluyen todo lo que le compete. Ej: Ambiente, conectividad, impuestos, etc. _Manejo del problema:_ Prototipado rápido, feedback y ciclos rápidos para soluciones pequeñas.
+
+- Tolerancia al Cambio: Posibilidad del cambio en el mismo y que sea responsivo a diferentes contextos._Manejo del problema:_ Desarrollo Evolutivo, desarrollos pequeños. Paso a paso pero de manera firme e ir haciendo crecer el software.
+
+- Invisibilidad: Problemas de tangibilidad nula. _Manejo del problema:_ Grandes diseñadores, Arquitectos que saben abtraer el problema y que realiza soluciones elegantes, de manera simple, con la mejor calidad posible en los componentes que lo necesitan.
+
+**Accidentales:** Está relacionado con la plataforma que vamos a implementar, tecnología, lenguajes, frameworks, integraciones, entre otros, que tienen 3 Entornos:
+
+- Lenguajes de alto nivel
+- Multi-procesamiento
+- Entornos de programación
 
 ### Introducción a la arquitectura de software
 
