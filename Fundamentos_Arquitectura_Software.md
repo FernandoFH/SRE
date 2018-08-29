@@ -1,20 +1,19 @@
 <p align="center">Fundamentos de Arquitectura Software</p>
 <hr/>
 <p align="center">
-    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    <b><a href="Fundamentos_Arquitectura_Software.md#what-has-inside">What has inside</a></b>
     |
-    <b><a href="README.md#setup">Setup</a></b>
+    <b><a href="Fundamentos_Arquitectura_Software.md#setup">Setup</a></b>
     |
-    <b><a href="README.md#settings">Settings</a></b>
+    <b><a href="Fundamentos_Arquitectura_Software.md#settings">Settings</a></b>
     |
-    <b><a href="README.md#how-to">How to</a></b>
+    <b><a href="Fundamentos_Arquitectura_Software.md#how-to">How to</a></b>
 </p>
 
 ## What has inside
 
-- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
+- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)
 - Tests with [Travis](https://travis-ci.org/)
-- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
 - No JS. :sunglasses:
 
 ## Setup
