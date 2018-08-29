@@ -1,13 +1,13 @@
 <p align="center">Fundamentos de Arquitectura Software</p>
 <hr/>
 
-## El proceso de desarrollo de software
+### El proceso de desarrollo de software
 
 - [Jekyll](https://jekyllrb.com/)
 - Tests with [Travis](https://travis-ci.org/)
 - No JS. :sunglasses:
 
-## Introducción a la arquitectura de software
+### Introducción a la arquitectura de software
 
 0. :star: to the project. :metal:
 2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
@@ -16,7 +16,7 @@
 
 If you want to test locally on your machine, do the following steps also:
 
-## Análisis de requerimientos
+### Análisis de requerimientos
 
 You must fill some informations on `_config.yml` to customize your site.
 
@@ -29,8 +29,6 @@ picture: 'assets/images/profile.jpg'
 and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
 ```
 
-##  Estilos de arquitectura
+### Estilos de arquitectura
 
-
-
-##  Desarrollo del proyecto
+### Desarrollo del proyecto
