@@ -1,18 +1,7 @@
 <p align="center">Fundamentos de Arquitectura Software</p>
 <hr/>
-<p align="center">
-    <b><a href="Fundamentos_Arquitectura_Software.md#El-proceso-de-desarrollo-de-software">El proceso de desarrollo de software</a></b>
-    |
-    <b><a href="Fundamentos_Arquitectura_Software.md#Introducción-a-la-arquitectura-de-software">Introducción a la arquitectura de software</a></b>
-    |
-    <b><a href="Fundamentos_Arquitectura_Software.md#Análisis-de-requerimientos">Análisis de requerimientos</a></b>
-    |
-    <b><a href="Fundamentos_Arquitectura_Software.md#Estilos-de-arquitectura">Estilos de arquitectura</a></b>
-     |
-    <b><a href="Fundamentos_Arquitectura_Software.md#Desarrollo-del-proyecto">Desarrollo del proyecto</a></b>
-</p>
 
-##El proceso de desarrollo de software
+## El proceso de desarrollo de software
 
 - [Jekyll](https://jekyllrb.com/)
 - Tests with [Travis](https://travis-ci.org/)
