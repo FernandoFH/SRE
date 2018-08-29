@@ -103,6 +103,10 @@ El ciclo de vida del producto va a agregar limitaciones al producto, por ejemplo
 El arquitecto debe balancear entre los requerimiento y las restricciones.
 
 ### Estilos de arquitectura
+Un estilo de arquitectura es una colección de decisiones de diseño, aplicables en un contexto determinado, que restringen las decisiones arquitectónicas específicas en ese contexto y obtienen beneficios en cada sistema resultante.
+
+- Estilos: Llamado y retorno
+
 
 
 ### Desarrollo del proyecto
