@@ -1,4 +1,4 @@
-<p align="center">Fundamentos de Arquitectura Software</p>
+<p align="center"><h2>Fundamentos de Arquitectura Software</h2></p>
 <hr/>
 
 ### El proceso de desarrollo de software
