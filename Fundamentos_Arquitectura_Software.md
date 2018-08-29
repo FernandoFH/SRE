@@ -12,7 +12,7 @@
     <b><a href="Fundamentos_Arquitectura_Software.md#Desarrollo-del-proyecto">Desarrollo del proyecto</a></b>
 </p>
 
-## El proceso de desarrollo de software
+##El proceso de desarrollo de software
 
 - [Jekyll](https://jekyllrb.com/)
 - Tests with [Travis](https://travis-ci.org/)
