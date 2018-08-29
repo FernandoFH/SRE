@@ -51,26 +51,58 @@ Es importante que diferenciemos el ROL del puesto de trabajo, hay roles que pued
 
 ### Introducción a la arquitectura de software
 
-0. :star: to the project. :metal:
-2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
-4. Write some posts :bowtie:
+#### Arquitectura de Software es:
+La estructura del sistema, compuesta por elementos de software, sus propiedades visibles y sus relaciones.
 
-If you want to test locally on your machine, do the following steps also:
+#### Ley de Conway
+“Cualquier pieza de software refleja la estructura organizacional que la produjo.”
+
+#### Objetivos del arquitecto
+Cada uno de los stakeholder tiene que ser conectado por el Arquitecto con sus requerimientos.
+
+Stakeholder -> Arquitecto -> Requerimientos = Implementaciónes en el Sistema.
+
+Los Requerimientos de cada stakeholder afectan de forma única el sistema.
+
+- Cliente: Entrega a tiempo y dentro del presupuesto.
+- Manager: Permite equipos independientes y comunicación clara.
+- Dev: Que sea fácil de implementar y de mantener.
+- Usuario: Es confiable y estará disponible cuando lo necesite.
+- QA: Es fácil de comprobar.
+
+La unión de todos estos requerimientos (funcionales o no funcionales) van a llevar al arquitecto a tomar decisiones que impacten sobre el sistema.
+
+#### Arquitectura y metodologías
+- En el contexto de método tradicional … Las decisiones de arquitectura es en la **etapa de diseño.**
+- En el contexto de Método ágil … Las decisiones de arquitectura es **en cada iteracion.**
 
 ### Análisis de requerimientos
 
-You must fill some informations on `_config.yml` to customize your site.
+#### Entender el problema
+**Espacio del problema (Que es lo que se va resolver):**
+- Idea
+- Criterios de éxito
+- Historias de usuario
 
-```
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
-picture: 'assets/images/profile.jpg'
-...
+**Espacio de la solución (Como se va a resolver):**
+- Diseño
+- Desarrollo
+- Evaluación
+- Criterios de aceptación
+- Despliegue
 
-and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
-```
+#### Restricciones
+Las restricciones en el contexto de un proceso de desarrollo de software se refiere a las restricciones que limitan las opciones de diseño o implementaciones disponibles al desarrollar.
+
+Los SH nos pueden poner limitaciones relacionadas con su contexto de negocio, limitaciones legales.
+
+También hay limitaciones técnicas relacionadas con integraciones con otros sistemas.
+
+El ciclo de vida del producto va a agregar limitaciones al producto, por ejemplo a medida que avanza el proceso de implementación el modelo de datos va a ser más difícil de modificar.
+
+El arquitecto debe balancear entre los requerimiento y las restricciones.
 
 ### Estilos de arquitectura
+
 
 ### Desarrollo del proyecto
