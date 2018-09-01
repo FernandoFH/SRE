@@ -107,25 +107,25 @@ Un estilo de arquitectura es una colección de decisiones de diseño, aplicables
 
 - Llamado y retorno
 
-  • Programa principal y subrutinas: Es el estilo más básico donde se tiene una rutina y se manda a llamar otra subrutina en donde la subrutina puede retornar o no un resultado, pero la rutina principal continua hasta que acabe la subrutina.
+  - Programa principal y subrutinas: Es el estilo más básico donde se tiene una rutina y se manda a llamar otra subrutina en donde la subrutina puede retornar o no un resultado, pero la rutina principal continua hasta que acabe la subrutina.
 
-  • Orientada a Objetos: Una versión con esteroides del estilo anterior. Se utiliza para aplicaciones que vamos a mantener por mucho tiempo. Tratamos de juntar el estado de la aplicación creando objetos los cuales tienen una interfaz publica (interfaz en este caso se refiere a una definición de funciones o estructura que esta clase puede implementar) donde la llamada no es solo una subrutina, sino objetos que interactuán entre si.
+  - Orientada a Objetos: Una versión con esteroides del estilo anterior. Se utiliza para aplicaciones que vamos a mantener por mucho tiempo. Tratamos de juntar el estado de la aplicación creando objetos los cuales tienen una interfaz publica (interfaz en este caso se refiere a una definición de funciones o estructura que esta clase puede implementar) donde la llamada no es solo una subrutina, sino objetos que interactuán entre si.
 
-  • Arquitectura multinivel: Son diferentes componentes que se van a comunicar en un orden en especifico donde un componente principal crea el llamado a un componente inferior en algún momento, un ejemplo de esto son las aplicaciones cliente-servidor.
+  - Arquitectura multinivel: Son diferentes componentes que se van a comunicar en un orden en especifico donde un componente principal crea el llamado a un componente inferior en algún momento, un ejemplo de esto son las aplicaciones cliente-servidor.
 
 - Flujo de datos
 
-  • Lote secuencial: Lo importante es ejecutar una pieza de código y que el final de esa pieza ya procesada pase a una siguiente etapa.
+  - Lote secuencial: Lo importante es ejecutar una pieza de código y que el final de esa pieza ya procesada pase a una siguiente etapa.
 
-  • Tubos y filtros: Se tiene un string o un flujo de datos continuo en donde cada aplicación recibe continuamente esos datos los procesa y los hace como salida a otra aplicación o al final de la ejecución.
+  - Tubos y filtros: Se tiene un string o un flujo de datos continuo en donde cada aplicación recibe continuamente esos datos los procesa y los hace como salida a otra aplicación o al final de la ejecución.
 
 - Centradas en datos
 
-  • Pizarrón: Son diferentes componentes que interactúan con un componente central y cada componente tiene la responsabilidad de procesar, calcular o recibir un dato y escribirlo al componente central. Cuando el componente central ya sabe que tiene todos los datos necesarios puede tener una salida.
+  - Pizarrón: Son diferentes componentes que interactúan con un componente central y cada componente tiene la responsabilidad de procesar, calcular o recibir un dato y escribirlo al componente central. Cuando el componente central ya sabe que tiene todos los datos necesarios puede tener una salida.
 
-  • Centrado en datos: Consiste en compartir información de una base datos y que varios componentes puedan acceder a la misma, es decir, distintos componentes comparten una misma base de datos.
+  - Centrado en datos: Consiste en compartir información de una base datos y que varios componentes puedan acceder a la misma, es decir, distintos componentes comparten una misma base de datos.
 
-  • Experto: En este caso el sistema que centraliza los datos, tiene la capacidad de entender los datos y consultas que realiza el cliente, generando salidas inteligentes. (inteligencia artificial).
+  - Experto: En este caso el sistema que centraliza los datos, tiene la capacidad de entender los datos y consultas que realiza el cliente, generando salidas inteligentes. (inteligencia artificial).
 
 
 
