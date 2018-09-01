@@ -125,7 +125,7 @@ Un estilo de arquitectura es una colección de decisiones de diseño, aplicables
 
   - Centrado en datos: Consiste en compartir información de una base datos y que varios componentes puedan acceder a la misma, es decir, distintos componentes comparten una misma base de datos.
 
-  - Experto: En este caso el sistema que centraliza los datos, tiene la capacidad de entender los datos y consultas que realiza el cliente, generando salidas inteligentes. (inteligencia artificial).
+  - Experto (Basado en reglas): En este caso el sistema que centraliza los datos, tiene la capacidad de entender los datos y consultas que realiza el cliente, generando salidas inteligentes. (inteligencia artificial).
 
 
 
