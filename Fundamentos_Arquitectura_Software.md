@@ -107,6 +107,12 @@ Un estilo de arquitectura es una colección de decisiones de diseño, aplicables
 
 - Estilos: Llamado y retorno
 
+  - Programa principal y subrutinas: Es el estilo más básico donde se tiene una rutina y se manda a llamar otra subrutina en donde la subrutina puede retornar o no un resultado, pero la rutina principal continua hasta que acabe la subrutina.
+
+  - Orientada a Objetos: Una versión con esteroides del estilo anterior. Se utiliza para aplicaciones que vamos a mantener por mucho tiempo. Tratamos de juntar el estado de la aplicación creando objetos los cuales tienen una interfaz publica (interfaz en este caso se refiere a una definición de funciones o estructura que esta clase puede implementar) donde la llamada no es solo una subrutina, sino objetos que interactuán entre si.
+
+  - Arquitectura multinivel: Son diferentes componentes que se van a comunicar en un orden en especifico donde un componente principal crea el llamado a un componente inferior en algún momento, un ejemplo de esto son las aplicaciones cliente-servidor.
+
 
 
 ### Desarrollo del proyecto
