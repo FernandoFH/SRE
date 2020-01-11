@@ -129,4 +129,17 @@ Para administrar el servicio de nagios podemos usar el comando
 ``` 
 sudo systemctl (status, start, restart, reload, stop, enable, disable, list-dependencies) nagios.
 ``` 
-
+#### Installing the Nagios Plugins
+``` 
+cd ~
+curl -L -O https://nagios-plugins.org/download/nagios-plugins-2.2.1.tar.gz
+``` 
+``` 
+tar zxf nagios-plugins-2.2.1.tar.gz
+cd nagios-plugins-2.2.1
+``` 
+``` 
+./configure
+make
+sudo make install
+``` 
