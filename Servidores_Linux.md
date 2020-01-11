@@ -107,7 +107,26 @@ Proceso que consumem mas RAM
 ```sudo apt update ```
 ```sudo apt upgrade ```
 
+----
+####  Nagios
 
- 
- 
+``` wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.4.tar.gz -O nagioscore.tar.gz  ```
+
+```  tar xvzf nagioscore.tar.gz``` 
+
+``` 
+sudo ./configure --with-https-conf=/etc/apache2/sites-enabled
+sudo make all
+sudo make install-groups-users
+sudo make install
+sudo make install-init
+sudo make install-commandmode
+sudo make install-config
+sudo make install-webconf
+``` 
+
+Para administrar el servicio de nagios podemos usar el comando 
+``` 
+sudo systemctl (status, start, restart, reload, stop, enable, disable, list-dependencies) nagios.
+``` 
 
