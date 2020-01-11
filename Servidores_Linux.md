@@ -1,4 +1,4 @@
-<p align="center"> Administración de Servidores Linux</p>
+<p align="center"> Administración de Servidores Linux</p> _By Platzi_
 
 ----
 #### Comandos Basicos 
@@ -16,3 +16,50 @@
 - **tail:** Nos muestra las últimas 10 líneas de nuestros archivos.
 - **head:** Nos muestra las primeras 10 líneas de nuestros archivos.
 ----
+#### Archivos y permisos
+
+``` -rwxrw-r--. ```
+
+- El primer carácter nos indica si tenemos un archivo (-), enlace simbólico (l) o directorio (d).
+
+**Los siguientes caracteres significan**
+
+- Lectura (r)
+- Escritura (w)
+- Ejecución (x).
+
+**Se agrupan en 3 e implicam:** 
+- El primer grupo son los permisos del usuario que creó ese archivo, 
+- El segundo para el grupo al que pertenece este usuario. 
+- El tercero para cualquier otro usuario de tu sistema operativo.
+
+Si en vez de estas letras encuentras un guion significa que ese usuario o grupo de usuarios no tiene permiso para esa acción en particular.
+
+Podemos encontrar estos permisos como 3 números del 1 al 7. Estos números son la suma de los 3 caracteres de permisos para cada usuario o grupo.
+
+- = 0
+x = 1
+w = 2
+r = 4
+
+Por lo tanto, los permisos de nuestro archivo de ejemplo serían: 7 (1+2+4) 6 (0+2+4) 4 (0+0+4).
+
+Para cambiar los permisos de un archivo o directorio usamos:
+
+``` chmod + a quién queremos añadir o quitar los permisos  ```
+
+El usuario propietario: u.
+El grupo: g.
+El resto de usuarios: o.
+Para todos: a.
+
+**Por ejemplo** , para añadir permisos de ejecución a nuestro usuario propietario usamos:
+
+``` chmod u+x nombre-del-archivo ```
+
+Para cambiar al usuario propietario del archivo con el comando ```chown  ```.
+
+``` sudo chown nuevo-usuario:grupo-usuarios nombre-del-archivo ```
+----
+
+
