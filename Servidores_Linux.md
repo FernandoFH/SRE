@@ -143,3 +143,15 @@ cd nagios-plugins-2.2.1
 make
 sudo make install
 ``` 
+----
+#### Usuarios
+- **id**: Nos muestra el identificador único (uid) de cada usuario en nuestro sistema operativo. El ID 0 está reservado para el usuario root.
+
+- **whoami**: Podemos ver con qué usuario estamos trabajando en este momento. 
+
+Podemos ver todos los usuarios del sistema leyendo el archivo ``` /etc/passwd ``` 
+
+Las contraseñas de los usuarios están almacenadas en el archivo ``` etc/shadow ``` 
+
+-**passwd**: Para cambiar la contraseña de nuestros usuarios.
+
