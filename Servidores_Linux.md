@@ -62,7 +62,52 @@ Para cambiar al usuario propietario del archivo con el comando ```chown  ```.
 
 ``` sudo chown nuevo-usuario:grupo-usuarios nombre-del-archivo ```
 
+----
+#### Manejo y monitoreo de procesos y recursos del sistema
+
+- ps.
+- grep nos ayuda a filtrar el resultado de un comando o archivo dependiendo de las palabras de cada línea. Para esto también vamos a usar el pipe (|), un símbolo que nos ayuda a enviar el resultado de un comando a un segundo comando.
+
+ ```  ps aux | grep User ```
+ 
+ ----
+####  Monitoreo de recursos del sistema
+ 
+El comando  ``` top  ``` nos permite interactuar con una interfaz gráfica que nos muestra información específica del sistema operativo: cantidad de usuarios, tareas corriendo o “durmiendo”, identificadores de los procesos, entre otras.
+
+Para ver la información de la CPU podemos usar el comando:
+
+``` cat /proc/cpuinfo | grep -i "processor" ```
+
+``` ps auxf | sort -nr -k 3 | head 5 ```
+
+
+Para ver la información de la memoria podemos usar el comando ```free o free -h  ```
+
+Para ver el uso del disco duro está el comando ``` du o du -hsc ```
+
+Proceso que consumem mas cpu
+
+```  sudo ps auxf | sort -nr - k 3 | head -5 ```
+
+Proceso que consumem mas RAM
+
+``` sudo ps auxf | sort -nr - k 4 | head -5 ```
 
 ----
+####  Análisis de los parámetros de red
 
+``` ip addr show```
+``` hostname ```
+``` route -n ```
+``` nslookup ```
+
+----
+####  Manejo de paquetes en sistemas basados en Debian
+```sudo apt update ```
+```sudo apt upgrade ```
+
+
+ 
+ 
 
