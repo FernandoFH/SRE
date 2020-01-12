@@ -153,5 +153,5 @@ Podemos ver todos los usuarios del sistema leyendo el archivo ``` /etc/passwd ``
 
 Las contraseñas de los usuarios están almacenadas en el archivo ``` etc/shadow ``` 
 
--**passwd**: Para cambiar la contraseña de nuestros usuarios.
+- **passwd**: Para cambiar la contraseña de nuestros usuarios.
 
