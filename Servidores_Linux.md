@@ -155,3 +155,20 @@ Las contraseñas de los usuarios están almacenadas en el archivo ``` etc/shadow
 
 - **passwd**: Para cambiar la contraseña de nuestros usuarios.
 
+#### Creando y manejando cuentas de usuario
+
+```sudo useradd nombre-usuario```: Crea un usuario sin asignarle inmediatamente alguna contraseña ni consultar más información. 
+```sudo adduser nombre-usuario```: Crea un nuevo usuario con contraseña y algo más de información. También creará una nueva carpeta en la carpeta /home/.
+```userdel nombre-usuario```: Eliminar cuentas de usuarios.
+```usermod```: Modificar la información de alguna cuenta.
+
+#### Grupos
+
+```su - nombre-usuario``` o ```sudo su - nombre-usuario``` : Cambia de usuario sin necesidad de reiniciar.
+```groups nombre-usuario```: Para ver a qué grupos pertenecen nuestros usuarios.
+
+Para agregar usuarios a un nuevo grupo usamos el comando ```sudo gpasswd -a nombre-usuario nombre-grupo```. Los eliminamos de la misma forma con ```gpasswd -d```.
+
+Para esto también podemos usar el comando ```sudo usermod -aG nombre-grupo nombre-usuario```. Recuerda que en este caso el orden en que escribimos el grupo y el ususario se invierte.
+
+Para listar los permisos de nuestros usuarios ejecutamos el comando sudo -l.
