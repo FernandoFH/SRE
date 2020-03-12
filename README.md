@@ -1,4 +1,4 @@
-# DevOps
-Code and examples in my training to DevOps 
+# Site Reliability Engineering
 
-- Administración de Servidores Linux (Platzi) 
+- https://www.coursera.org/learn/site-reliability-engineering-slos
+- https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
