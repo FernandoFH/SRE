@@ -1,5 +1,4 @@
 # Site Reliability Engineering
-____
 
 - Site Reliability Engineering: Measuring and Managing Reliability | Google Cloud Training [Here](https://www.coursera.org/learn/site-reliability-engineering-slos)
 
