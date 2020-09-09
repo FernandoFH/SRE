@@ -4,4 +4,4 @@
 
 - Scalable Microservices with Kubernetes | Google [Here](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 
-- [Books](https://landing.google.com/sre/books/)
+- [Books](https://landing.google.com/sre/)
