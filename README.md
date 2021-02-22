@@ -1,7 +1,5 @@
 # Site Reliability Engineering
 
-### Summary
-
 <details>
   <summary> 
     Basic concepts
