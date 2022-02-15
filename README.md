@@ -53,7 +53,7 @@
     <td align="center"><a href="resources/terraform.md"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="resources/coding.md"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a></td>
+    <td align="center"><a href="resources/coding.md"><img src="images/coding.png" width="75px;" height="750px;" alt="coding"/><br /><b>Coding</b></a></td>
     <td align="center"><a href="resources/python.md"><img src="images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a></td>
     <td align="center"><a href="resources/go.md"><img src="images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a></td>
     <td align="center"><a href="resources/bash.md"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
