@@ -1,4 +1,4 @@
-  - [Blog](https://medium.com/site-reliability-engineering-en-espa%C3%B1ol/camino-para-ser-site-reliability-engineering-sre-en-2022-86fdfd5bc947)
+- [Index](https://medium.com/site-reliability-engineering-en-espa%C3%B1ol/camino-para-ser-site-reliability-engineering-sre-en-2022-86fdfd5bc947)
 
 # Site Reliability Engineering
 #### Basic concepts
