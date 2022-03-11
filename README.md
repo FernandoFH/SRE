@@ -31,7 +31,7 @@
 
 ### Amazon Web services
 
-- DevOps on AWS Specialization [Here](https://www.coursera.org/specializations/aws-devops)
+- DevOps on AWS [Here](https://www.coursera.org/specializations/aws-devops)
 
 
 <p align="center"><img src="images/devops_resources.png"/></p>
