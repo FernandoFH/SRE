@@ -24,7 +24,15 @@
 
 ### Google Professional Cloud
 
+- Architecting with Google Compute Engine [Here](https://www.coursera.org/specializations/gcp-architecture)
+- Reliable Google Cloud Infrastructure: Design and Process [Here](https://www.coursera.org/learn/cloud-infrastructure-design-process)
+- Architecting with Google Kubernetes Engine [Here](https://www.coursera.org/specializations/architecting-google-kubernetes-engine)
+- Architecting Hybrid Cloud Infrastructure with Anthos  [Here](https://www.coursera.org/specializations/architecting-hybrid-cloud-infrastructure-anthos)
+
 ### Amazon Web services
+
+- DevOps on AWS Specialization [Here](https://www.coursera.org/specializations/aws-devops)
+
 
 <p align="center"><img src="images/devops_resources.png"/></p>
 
