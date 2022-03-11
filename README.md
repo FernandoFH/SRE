@@ -20,8 +20,11 @@
 ### Books
 - Site Reliability Engineering (SRE) | [Here](https://sre.google/books/)
 
+### Books
 
-###
+### Google Professional Cloud
+
+### Amazon Web services
 
 <p align="center"><img src="images/devops_resources.png"/></p>
 
