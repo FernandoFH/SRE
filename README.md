@@ -33,9 +33,6 @@
 
 - DevOps on AWS [Here](https://www.coursera.org/specializations/aws-devops)
 
-
-<p align="center"><img src="images/devops_resources.png"/></p>
-
 :information_source: &nbsp;This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps.
 
 :pencil: &nbsp;Feel free to add more resources by submitting pull requests
