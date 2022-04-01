@@ -80,3 +80,11 @@ choose the commits in the branch: `git cherry-pick [SHA 1]`
 `git remote add origin <>`
 
 `git remote remove [origin]`
+
+### Eliminar carpeta enviada a repositorio 
+
+`git rm -r --cached <Carpeta_Enviada>`
+
+`git commit -m "Eliminando <Carpeta_Enviada>"`
+
+`git push origin main`
