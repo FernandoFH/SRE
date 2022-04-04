@@ -1,4 +1,5 @@
   - [Index](https://medium.com/site-reliability-engineering-en-espa%C3%B1ol/camino-para-ser-site-reliability-engineering-sre-en-2022-86fdfd5bc947/?target=_blank)
+  - [Site || Notes](https://www.notion.so/fernandoh/Site-Reliability-Engineering-d48c1e25a44d47ebaf8c4ec05b326b48)
 
 # Site Reliability Engineering
 ### Concepts
