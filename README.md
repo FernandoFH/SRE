@@ -1,5 +1,3 @@
-[Linux ] 
- [Nagios]
 [traefik]
   [Api Python Path]
 [SRE and DevOps]
