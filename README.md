@@ -30,11 +30,10 @@
 - Architecting with Google Kubernetes Engine [Here](https://www.coursera.org/specializations/architecting-google-kubernetes-engine)
 - Architecting Hybrid Cloud Infrastructure with Anthos  [Here](https://www.coursera.org/specializations/architecting-hybrid-cloud-infrastructure-anthos)
 
-
 ## ☁️ Cloud Provider
-### Amazon Web services
-### Google Cloud Professional 
-### Azure  Microsoft || [Here](./AWS)
+#### Amazon Web Services || [Here](./AWS)
+#### Google Cloud Professional || [Here](./GCP)
+#### Azure  Microsoft || [Here](./AZURE) 
 
 
 - DevOps on AWS [Here](https://www.coursera.org/specializations/aws-devops)
