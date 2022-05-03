@@ -31,10 +31,10 @@
 - Architecting Hybrid Cloud Infrastructure with Anthos  [Here](https://www.coursera.org/specializations/architecting-hybrid-cloud-infrastructure-anthos)
 
 
-# ☁️ Cloud Provider
+## ☁️ Cloud Provider
 ### Amazon Web services
 ### Google Cloud Professional 
-### Azure  Microsoft || 
+### Azure  Microsoft || [Here](./AWS)
 
 
 - DevOps on AWS [Here](https://www.coursera.org/specializations/aws-devops)
