@@ -1,4 +1,41 @@
-  - [Index](https://medium.com/site-reliability-engineering-en-espa%C3%B1ol/camino-para-ser-site-reliability-engineering-sre-en-2022-86fdfd5bc947/?target=_blank)
+ # Git
+
+[Linux ] 
+[Docker] 
+[Ngnix] 
+[Nagios]
+[traefik]
+[Kubernetes]
+[Kubernetes for Developers (CKAD) Exam LFD259]
+[Api Python Path]
+[SRE and DevOps]
+[GitLab] 
+[Jenkins] 
+[Ansible] 
+[**Terraform**] 
+[DHCP Kea] 
+[Python Sin Fronteras] 
+[BBDD ] 
+[Kafka]
+[ElasticSearch]
+[**Prometheus**]
+[Thanos]
+[**Grafana**]
+[Bitrise]
+### ☁️ Services Cloud
+[Digital Ocean]
+[Cloudflare]
+### ☁️ Cloud Provider
+[AWS]
+[GCP]
+[AZURE]
+ 
+ 
+ 
+ 
+ 
+ 
+ - [Index](https://medium.com/site-reliability-engineering-en-espa%C3%B1ol/camino-para-ser-site-reliability-engineering-sre-en-2022-86fdfd5bc947/?target=_blank)
   - [Site || Notes](https://www.notion.so/fernandoh/Site-Reliability-Engineering-d48c1e25a44d47ebaf8c4ec05b326b48)
 
 # Site Reliability Engineering
