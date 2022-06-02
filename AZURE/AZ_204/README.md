@@ -1,4 +1,4 @@
-#### Microsoft Azure Developer Associate AZ-204 Test Prep Specialization
+#### Microsoft Azure Developer Associate: AZ-204 Test Prep Specialization
 1) Create Serverless Applications
 2) Connect Your Services with Microsoft Azure Service Bus
 3) Data Storage in Microsoft Azure for Associate Developers
