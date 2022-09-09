@@ -18,6 +18,12 @@
 - Site Reliability Engineering: Measuring and Managing Reliability | Google Cloud Training [Here](https://www.coursera.org/learn/site-reliability-engineering-slos)
 - Scalable Microservices with Kubernetes | Google [Here](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 
+---- 
+- https://www.coursera.org/specializations/aws-fundamentals
+- https://www.coursera.org/specializations/aws-devops
+- https://www.coursera.org/specializations/aws-net-serverless-development
+- https://www.coursera.org/specializations/aws-python-serverless-development
+
 ### Books
 - Site Reliability Engineering (SRE) | [Here](https://sre.google/books/)
 
