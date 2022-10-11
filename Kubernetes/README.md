@@ -2,6 +2,8 @@
 
 - https://knative.dev/
 
+- [Las 4C de Kubernetes](https://www.youtube.com/watch?v=5NT-UYms5sA)
+
 ### Temas 
 - Pods 
 - Deploymet 
