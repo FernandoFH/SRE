@@ -27,8 +27,6 @@
 ### Books
 - Site Reliability Engineering (SRE) | [Here](https://sre.google/books/)
 
-### Books
-
 ### Google Professional Cloud
 
 - Architecting with Google Compute Engine [Here](https://www.coursera.org/specializations/gcp-architecture)
