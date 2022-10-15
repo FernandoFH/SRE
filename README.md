@@ -48,12 +48,7 @@
 
 ****
 
-<!-- ALL-TOPICS-LIST:START -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<center>
-<table>
-  <tr>
+    <tr>
     <td align="center"><a href="#devops"><img src="images/DevOps_IMG.jpg" width="70px;" height="75px;" alt="DevOps" /><br /><b>DevOps</b></a></td>
     <td align="center"><a href="resources/jenkins/README.md"><img src="images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
     <td align="center"><a href="resources/git.md"><img src="images/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a></td>
