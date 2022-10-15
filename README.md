@@ -7,65 +7,6 @@
   - [Git](https://github.com/FernandoFH/SRE/blob/master/GitHub_Note.md)
   - [Fundamentos Arquitectura Software](https://github.com/FernandoFH/SRE/blob/master/Fundamentos_Arquitectura_Software.md)
 
-# Resources
-### Blogs
-
-- DevOps Roadmap [Here](https://roadmap.sh/devops)
-- Caminando con un SRE [Here](https://dev.to/gelopfalcon/caminando-con-un-sre-3fkb)
-- DevOps Roadmap [2021] - How to become a DevOps Engineer [Here](https://dev.to/techworld_with_nana/devops-roadmap-2021-how-to-become-a-devops-engineer-1n9p)
-
-### Courses
-- Site Reliability Engineering: Measuring and Managing Reliability | Google Cloud Training [Here](https://www.coursera.org/learn/site-reliability-engineering-slos)
-- Scalable Microservices with Kubernetes | Google [Here](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
-
----- 
-- https://www.coursera.org/specializations/aws-fundamentals
-- https://www.coursera.org/specializations/aws-devops
-- https://www.coursera.org/specializations/aws-net-serverless-development
-- https://www.coursera.org/specializations/aws-python-serverless-development
-
-### Books
-- Site Reliability Engineering (SRE) | [Here](https://sre.google/books/)
-
-### Google Professional Cloud
-
-- Architecting with Google Compute Engine [Here](https://www.coursera.org/specializations/gcp-architecture)
-- Reliable Google Cloud Infrastructure: Design and Process [Here](https://www.coursera.org/learn/cloud-infrastructure-design-process)
-- Architecting with Google Kubernetes Engine [Here](https://www.coursera.org/specializations/architecting-google-kubernetes-engine)
-- Architecting Hybrid Cloud Infrastructure with Anthos  [Here](https://www.coursera.org/specializations/architecting-hybrid-cloud-infrastructure-anthos)
-
-## ☁️ Cloud Provider
-#### Amazon Web Services || [Here](./AWS)
-#### Google Cloud Professional || [Here](./GCP)
-#### Azure  Microsoft || [Here](./AZURE) 
-
-
-- DevOps on AWS [Here](https://www.coursera.org/specializations/aws-devops)
-
-:information_source: &nbsp;This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps.
-
-:pencil: &nbsp;Feel free to add more resources by submitting pull requests
-
-* [DevOps Roadmap](#devops-roadmap)
-* [Alternative Roadmaps](#alternative-roadmaps)
-* [Learn About DevOps](#learn-about-devops)
-* [Learn Git](#learn-git)
-* [Programming](#programming)
-* [Operating Systems](#operating-systems)
-* [DevOps Toolchain](#devops-toolchain)
-
-
-<a name="devops"></a>
-## DevOps
-
-### DevOps Roadmap
-
-  * The following path is opinionated. You can find alternative paths in the [alternative roadmaps section](#alternative-roadmaps)
-  * Do NOT attempt to learn everything, especially if you are a complete beginner (the burnout will make you regret you ever heard the word DevOps)
-  * Learn enough to say "I know what is DevOps and I understand how to practice it". You can learn everything else by demand or when you feel ready
-
-The must list
-
 Topic | What to learn | Alternatives | Description
 :------|:------|:------|:------:
 Version Control | [Git](#Learn-git) | - | Version Control is used everywhere and Git is the leading version control technology
@@ -75,8 +16,6 @@ Protocols | DHCP, UDP, TCP, HTTP, SSH | Not as an alternative, you can simply le
 Applications | Web Server, Load Balancer, Cache, Database | | Learn how they work and try out some implementations (e.g. MySQL for databases and httpd for web servers)
 [System Design](https://github.com/bregman-arie/system-design-notebook) | Availability, Reliability, Scalability, Performance | Learn how to design infrastructure and systems
 
-The second must list :)
-Seriously though, don't try to master everything in this list and start with something that you are interested in. The order has no meaning in this case.
 
 Topic | What to learn | Alternatives | Description
 :------|:------|:------|:------:
@@ -87,34 +26,11 @@ CI/CD | Jenkins, GitHub Actions | Gitlab CI, Circle CI, Argo CD |
 Logging and Dashboards | Elastic Stack, Report Portal, Grafana | Graylog, Splunk |
 Monitoring | Prometheus | Nagios, Datadog | 
 
-### Alternative Roadmaps
-
-There are other DevOps roadmaps and learning plans out there. If you feel the one above is little bit too much or just want to look at other options, maybe you'll find the following useful
-
 Name | Description
 :------|:------:
 [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap) | DevOps skills roadmap. What to to learn at each step.
 [DevOps 3 Weeks Plan](https://medium.com/@medineshkatwal/devops-3-week-plan-from-16-oct-2019-to-31st-oct-2019-af486e625f72) | Detailed plan on what to do at each day
 [How to Become a DevOps Engineer in Six Months?](https://spacelift.io/blog/how-to-become-devops-engineer) | Skills you need to become DevOps Engineer
-
-### Learn about DevOps
-
-Name | Description
-:------|:------:
-[What is DevOps? - Amazon](https://aws.amazon.com/devops) | Learn what is DevOps by Amazon and which AWS services can help you to practice DevOps
-[What is DevOps? - Red Hat](https://www.redhat.com/en/topics/devops) | Learn what is DevOps by Red Hat, including many interesting articles
-[What is DevOps? - Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops) | Learn what is DevOps by Microsofy, including Azure DevOps service
-[What is DevOps? - Google](https://cloud.google.com/devops) | Learn what is DevOps by Google
-[Who is DevOps? - Spacelift](https://spacelift.io/blog/who-is-devops-engineer) | Who is DevOps? Is it Worth it to Become a DevOps Engineer?
-
-### Learn Git
-
-Make sure you are comfortable with the following list once you done learning Git basics
-
-  * Commit changes to a project
-  * Submit pull/merge requests
-  * Working with branches
-  * Rebase changes (change order, squash, ...)
 
 Name | Description
 :------|:------:
@@ -122,37 +38,7 @@ Name | Description
 [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc) | Article on Git concepts
 [Codeacademy Learn Git](https://www.codecademy.com/learn/learn-git) | Not Free 
 
-### Programming
-
-Practicing DevOps without knowing programming is like eating cornflakes with ketchup - it's just doesn't makes sense (yes, my analogies are the worst).<br>
-Here is a list of some good sites to practice programming in general:
-
-Name | Comments
-:------|:------:
-[HackerRank](https://www.hackerrank.com) | Practice Coding skills
-[Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
-[LeetCode](https://leetcode.com) | Practice programming online
-
-A better approach might be to actually write some DevOps related scripts or projects. Start simple. Here are some ideas:
-
-  * Write a script that gets a number of instances and a name of a platform (AWS, local, Azure, ...) as parameters and provisions those instances on the chosen platform
-  * Write a script to parse logs and extract some specific information you are interested in
-  * Write a script that extracts information from some website using web scraping libraries
-
 ### Operating Systems
-
-Deep dive into operation system internals. Linux should be your first choice.
-Here is a list of resources that will help you learn Linux.<br>
-Also, don't waste a second on picking the right distribution. For learning OS concepts and internals, any distribution would work fine.
-
-Name | Comments
-:------|:------:
-[Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
-[Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Written articles/lessons
-[Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
-
-Once you are familiar with the commands and feel comfortable enough to keep deep diving, learn some OS concepts:
-
   * Memory Management
   * Processes
   * Kernel
@@ -160,34 +46,36 @@ Once you are familiar with the commands and feel comfortable enough to keep deep
 
 #### Linux Master Application
 
-A completely free application for testing your knowledge on Linux
+# Resources
+### Blogs
 
-<a href="https://play.google.com/store/apps/details?id=com.codingshell.linuxmaster"><img src="images/linux_master.jpeg"/></a>
+- DevOps Roadmap [Here](https://roadmap.sh/devops)
+- Caminando con un SRE [Here](https://dev.to/gelopfalcon/caminando-con-un-sre-3fkb)
+- DevOps Roadmap [2021] - How to become a DevOps Engineer [Here](https://dev.to/techworld_with_nana/devops-roadmap-2021-how-to-become-a-devops-engineer-1n9p)
 
-### System Design
+### Courses
+- Site Reliability Engineering: Measuring and Managing Reliability | Google Cloud Training [Here](https://www.coursera.org/learn/site-reliability-engineering-slos)
+- Scalable Microservices with Kubernetes | Google [Here](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
+- DevOps on AWS [Here](https://www.coursera.org/specializations/aws-devops)
 
-System Design can be a complex topic. For that reason, I've created a separate repository for you to learn it properly.
+- https://www.coursera.org/specializations/aws-fundamentals
+- https://www.coursera.org/specializations/aws-devops
+- https://www.coursera.org/specializations/aws-net-serverless-development
+- https://www.coursera.org/specializations/aws-python-serverless-development
 
-<p align="center"><a href="https://github.com/bregman-arie/system-design-notebook"><img src="images/system_design_notebook.png"/></a></p>
+### Books
+- Site Reliability Engineering (SRE) | [Here](https://sre.google/books/)
 
-### Tooling, Apps & Services
+## ☁️ Cloud Provider
 
-Name | Description
-:------|:------:
-[Periodic table of DevOps tools](https://xebialabs.com/periodic-table-of-devops-tools) | Table of DevOps tools per category
-[DevOps tool chest](https://xebialabs.com/the-ultimate-devops-tool-chest/#tool-chest-type) | List of DevOps tools
-[DevOps Bookmarks](http://www.devopsbookmarks.com) | NSIA
-[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io) | CNCF's recommended path through the cloud native landscape
-[DevOpsBookmarks](https://www.devopsbookmarks.org) | To discover tools in the devops landscape.
+- Architecting with Google Compute Engine [Here](https://www.coursera.org/specializations/gcp-architecture)
+- Reliable Google Cloud Infrastructure: Design and Process [Here](https://www.coursera.org/learn/cloud-infrastructure-design-process)
+- Architecting with Google Kubernetes Engine [Here](https://www.coursera.org/specializations/architecting-google-kubernetes-engine)
+- Architecting Hybrid Cloud Infrastructure with Anthos  [Here](https://www.coursera.org/specializations/architecting-hybrid-cloud-infrastructure-anthos)
 
-## Interactive practice and learning sites
-
-Learning by doing proved to be a very effective way to learn new things. If you are at a point where you don't feel comfortable enough to do it by yourself and you look for some guidance, the following sites might assist you
-
-Name | Description
-:------|:------:
-[KataKoda](https://www.katacoda.com) | Linux, Docker, ML, Kubernetes, ... environments and scenarios
-[QWIKLBAS](https://www.qwiklabs.com) | AWS, GCP, ... lab practice
+#### Amazon Web Services || [Here](./AWS)
+#### Google Cloud Professional || [Here](./GCP)
+#### Azure  Microsoft || [Here](./AZURE) 
 
 ## Community
 
@@ -242,13 +130,6 @@ Name | Description
 [DevOps Best Practices](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) | What is DevOps + list of resources
 [Infrastructure as Code: Examples, Best Practices & Tools](https://spacelift.io/blog/infrastructure-as-code) |
 
-## DevOps Snippets
-
-Name | Description
-:------|:------:
-[DevOpsnipp](https://www.devopsnipp.com/) | Sharing DevOps Snippets
-[Gist](https://gist.github.com) | Not DevOps specific
-
 ## Other Great Projects
 
 Name | Comments
@@ -279,121 +160,6 @@ Name | Description
 :------|:------:
 [The 12 Factor App](https://12factor.net) | must-read in my opinion 
 [A distributed Systems Reading List](https://dancres.github.io/Pages/?fbclid=IwAR2gapLU03iaxH4NDotc0LD_GiXOkyByfMT3iwufofUOEfCKEVwmezE3vCw)
-
-## DevOps Tooling
-
-- [ ] CI/CD
-  - [ ] Jenkins (Managed & on-premise, Containers supported, Plugins)
-  - [ ] GitHub Actions (Hosted service)
-  - [ ] Travis (Hosted service)
-  - [ ] CircleCI (Hosted service)
-  - [ ] GitLab CI (Hosted service and on-premise)
-  - [ ] Bamboo (Managed service and on-premise)
-  - [ ] [BuildKite](https://buildkite.com) (Hosted)
-  - [ ] [Zuul](https://zuul-ci.org/docs/zuul) (Hosted and on-premise)
-  - [ ] [Drone](https://www.drone.io)
-  - [ ] [Tekton](https://cloud.google.com/tekton)
-  - [ ] [Argo CD](https://argoproj.github.io/argo-cd)
-
-Note: "Provisioning" tools can be used to perform configuration management to some extent. The same applies for configuration management tools, which can be used for pprovisioning.
-
-- [ ] Provisioning
-  - [ ] Terraform (Open Source)
-  - [ ] CloudFormation (Available only on AWS)
-  - [ ] Pulumi (Open Source)
-
-- [ ] Configuration Management (all Open Source)
-  - [ ] Ansible (Agentless, Mutable Infrastructure, Procedural)
-  - [ ] Puppet (Agent, Mutable Infrastructure, Procedural)
-  - [ ] Chef (Mutable Infrastructure)
-  - [ ] Saltstack (Mutable Infrastructure)
-  - [ ] [Spacelift](https://spacelift.io/) (`$$$`)
-
-- [ ] Images
-  - [ ] [diskimage-builder](https://github.com/openstack/diskimage-builder)
-  - [ ] [Packer](https://www.packer.io)
-
-- [ ] Cloud
-  - [ ] AWS
-  - [ ] Azure
-  - [ ] GCP
-  - [ ] OpenStack
-
-- [ ] Monitoring
-  - [ ] [Prometheus](https://prometheus.io)
-  - [ ] Nagios (Mostly legacy today)
-  - [ ] Sensu
-  - [ ] Datadog (`$$$`)
-  - [ ] Zabbix
-  - [ ] Monit
-  - [ ] [Statuscake](https://www.statuscake.com) - Website Uptime & Performance Monitoring
-
-- [ ] Log Management
-  - [ ] Logstash
-  - [ ] Graylog
-  - [ ] Papertrail
-  - [ ] Fluentd
-  - [ ] [Splunk](https://www.splunk.com)
-  - [ ] [SumoLogic](https://www.sumologic.com)
-
-- [ ] Dashboards
-  - [ ] Grafana
-  - [ ] Kibana (Elastic)
-  - [ ] Report Portal (Mostly for Test Automation)
-
-- [ ] Security
-  - [ ] [Vault](https://www.vaultproject.io) - "Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets..."
-  - [ ] [Open Policy Agent](https://www.openpolicyagent.org) - "Flexible, fine-grained control for administrators across the stack"
-
-- [ ] Code review 
-  - [ ] Gerrit - Code Review system
-  - [ ] PullPanda - A collection of Tools such as reminder & analytics
-  - [ ] Review Board
-
-- [ ] Issue Tracking
-  - [ ] Jira
-  - [ ] Bugzilla
-
-- [ ] Code coverage
-  - [ ] Cobertura
-  - [ ] Clover
-  - [ ] JaCoCo
-
-- [ ] Data Processors
-  - [ ] Spark
-  - [ ] Apache Hadoop
-  - [ ] Apache Airflow
-  - [ ] Presto
-
-- [ ] Analytics Engines
-  - [ ] Druid
-  - [ ] Dremio
-  - [ ] Snowflake
-
-- [ ] Operations Data
-  - [ ] Salesforce
-  - [ ] Zuora
-
-- [ ] Containers Orchestration
-  - [ ] Kubernetes
-  - [ ] OpenShift
-  - [ ] Nomad
-
-- [ ] Alerting
-  - [ ] PagerDuty
-  - [ ] ServiceNow
-  - [ ] Slack (Mostly used for IM)
-
-- [ ] Metric Storage
-  - [ ] InfluxDB
-  - [ ] Splunk
-  - [ ] Cloud Storage services and Databases
-
-## More Infra & DevOps projects
-
-<p align="center"><a href="https://github.com/bregman-arie/howtheydevops"><img src="images/how_they_devops.png"/></a></p>
-<p align="center"><a href="https://github.com/bregman-arie/devops-exercises"><img src="images/devops_exercises.png"/></a></p>
-<p align="center"><a href="https://github.com/bregman-arie/infraverse"><img src="images/infraverse.png"/></a></p>
 
 ## Credits
 
