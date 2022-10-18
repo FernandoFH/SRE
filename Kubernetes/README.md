@@ -1,4 +1,4 @@
-<h2 align="center"> Kubernetes || </b></h2>
+<h2 align="center"> Kubernetes </b></h2>
 
 - [Oficial Site](https://kubernetes.io/) 
 - https://knative.dev/
