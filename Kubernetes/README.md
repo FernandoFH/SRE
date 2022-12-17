@@ -1,4 +1,4 @@
-<h2 align="center"> Kubernetes </b></h2>
+<h1 align="center"> Kubernetes </b></h1>
 
 - [Introduction to Kubernetes](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS158x+1T2022/home)
 - [Oficial Site](https://kubernetes.io/) 
