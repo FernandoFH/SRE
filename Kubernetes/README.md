@@ -1,6 +1,5 @@
 <h1 align="center"> Kubernetes </b></h1>
 
-- [Introduction to Kubernetes](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS158x+1T2022/home)
 - [Oficial Site](https://kubernetes.io/) 
 - https://knative.dev/
 - [4C de Kubernetes](https://kubernetes.io/es/docs/concepts/security/overview/) | [Video](https://www.youtube.com/watch?v=5NT-UYms5sA)
