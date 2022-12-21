@@ -4,3 +4,4 @@
  - [Fly](https://fly.io/)
  - [Workers cloudflare](https://workers.cloudflare.com/)
  - [Netlify](https://www.netlify.com/)
+ - [CircleCI](https://circleci.com/)
