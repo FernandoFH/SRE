@@ -5,6 +5,7 @@
  - [Workers cloudflare](https://workers.cloudflare.com/)
  - [Netlify](https://www.netlify.com/)
  - [CircleCI](https://circleci.com/)
+ - [Firebase](https://firebase.google.com/)
  - [Supabase](https://supabase.com/)
  - [AWS Amplify](https://aws.amazon.com/es/amplify/)
  - [nHost](https://nhost.io/)
