@@ -1,2 +1,2 @@
-### kubevela
+### Kubevela
 - [kubevela](https://kubevela.io/)
