@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  external-dns
+  namespace: external-dns
+  labels:
+    app:  external-dns
+spec:
+  selector:
+    matchLabels:
+      app: external-dns
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app:  external-dns
+      annotations:
+        # actualizar este campo con el valor obtenido luego
+        # de crear el role con eksctl
+        iam.amazonaws.com/role: arn:aws:iam::714780641622:role/eksctl-golangvzla-addon-iamserviceaccount-ex-Role1-MDHMC6OM0H87 ###ACTUALIZAR###
+    spec:
+      containers:
+      - name:  external-dns
+        image:  k8s.gcr.io/external-dns/external-dns:v0.13.2
+        args:
+        - --source=service
+        - --source=ingress
+        - --domain-filter=fernandoh.com
+        - --provider=aws
+        # - --policy=upsert-only
+        - --aws-zone-type=public
+        - --registry=txt
+        - --txt-owner-id=owner-id
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 100m
+            memory: 100Mi
+      serviceAccount: external-dns
+      securityContext:
+        fsGroup: 65534
