@@ -1,6 +1,9 @@
  - [Index](https://medium.com/site-reliability-engineering-en-espa%C3%B1ol/camino-para-ser-site-reliability-engineering-sre-en-2022-86fdfd5bc947/?target=_blank)
  - [Site || Notes](https://www.notion.so/fernandoh/Site-Reliability-Engineering-d48c1e25a44d47ebaf8c4ec05b326b48)
 
+### Courses
+ - [Mlops](https://www.coursera.org/specializations/mlops-machine-learning-duke)
+
 # Site Reliability Engineering
 ### Concepts
   - [Linux](https://github.com/FernandoFH/SRE/blob/master/Servidores_Linux.md)
