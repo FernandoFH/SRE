@@ -161,6 +161,10 @@ Name | Description
 [The 12 Factor App](https://12factor.net) | must-read in my opinion 
 [A distributed Systems Reading List](https://dancres.github.io/Pages/?fbclid=IwAR2gapLU03iaxH4NDotc0LD_GiXOkyByfMT3iwufofUOEfCKEVwmezE3vCw)
 
+## MLOps 
+
+[Awesome Mlops](https://github.com/FernandoFH/awesome-mlops)
+
 ## Credits
 
 Images and icons attribution can be found [here](credits.md)
