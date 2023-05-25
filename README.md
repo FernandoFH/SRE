@@ -145,7 +145,8 @@ Name | Comments
 :------|:------:
 [System Design Primer](https://github.com/donnemartin/system-design-primer) | "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
 kdn251 | [Interviews](https://github.com/kdn251/interviews) | 
-[DevOps Exercises](https://github.com/bregman-arie/devops-exercises) | By topic, DevOps related questions and exercises
+[DevOps Exercises](https://github.com/bregman-arie/devops-exercises) | By topic, DevOps related questions and exercises | 
+[SRE interview guide](https://github.com/FernandoFH/sre-interview-prep-guide) | | 
 
 ## Misc
 
