@@ -19,6 +19,7 @@
 - Services 
 - CRD 
 - PVC 
+- TLS Certificates (CertManager)
 - Log Managent 
 - Helm template 
 - Init containers 
@@ -37,3 +38,9 @@
 - MetalLB 
 - Control plane components
 - KEPs
+- Kyverno
+
+
+- kubectl get pods
+- kubectl get hpa
+- kubectl get all 
