@@ -1,18 +1,12 @@
 ## SAA-C03
 
-## Original Domains 
+|Domains | 
+|---- |
+| Design Resilient Architectures |	
+| Design High-Performing Architectures | 
+| Design Secure Applications and Architectures | 
+| Design  Cost-Optimized Architectures |
 
-| Design Resilient Architectures |	30 % |
-| Design High-Performing Architectures |	28% |
-| Design Secure Applications and Architectures | 	24% |
-| Design  Cost-Optimized Architectures | 	18% |
-
-## Current Domains 
-
-| Design Resilient Architectures |	26 % |
-| Design High-Performing Architectures |	24% |
-| Design Secure Applications and Architectures | 	30% |
-| Design  Cost-Optimized Architectures | 	20% |
 
 ### Design Resilient Architectures
 - Design multier Architectures
@@ -77,6 +71,7 @@
 - Sustainability
 
 ### - IAM 
+
 ### - S3 
 ### - EC2 
 ### - EBS and EFS 
@@ -96,3 +91,11 @@
 ### - Caching 
 ### - Governance
 ### - Migration
+
+
+
+### Practical Projects to learn AWS
+
+
+
+
