@@ -1,12 +1,11 @@
 ## SAA-C03
 
 |Domains | 
-|---- |
+|----    |
 | Design Resilient Architectures |	
 | Design High-Performing Architectures | 
 | Design Secure Applications and Architectures | 
 | Design  Cost-Optimized Architectures |
-
 
 ### Design Resilient Architectures
 - Design multier Architectures
@@ -34,6 +33,9 @@
  - AWS Global infrastructure
    31 Regions (2 o more AZ)
    99 Availability Zone (Data Centers)
+
+![ Region & AZ](./images/Region_AZ.png)
+
  - Edge Locations
  - The AWS Management Console
  - A region is a physical location in the world that consists of two or more Availability Zone (AZs). 
@@ -71,8 +73,35 @@
 - Sustainability
 
 ### - IAM 
+- Create users and grant permissions to those users 
+- Create groups and roles 
+- Control access to AWS resources
+- Enable multi-factor Authentication on the root account 
+- create an admin group for youy administrators, and assign the approprite permissions to this group
+-  Create user accounts for your administrators 
+- Add your users to the admingroup
+
+### IAM Policy 
+- Foramte JSON 
+- Example of a Policy document 
+
+![Example Policy](./images/ExamplePolicy.png)
+
+##### - IAM POLICY DOCUMENTS 
+          - Groups: Functions, Contains users
+          - Users: A physical person
+          - Roles: Internal usage within AWS    
+Effect \ Action \ Resource
+
+##### The Principle of Least Privilege 
+
+- IAM is Universal 
 
 ### - S3 
+
+
+
+
 ### - EC2 
 ### - EBS and EFS 
 ### - Databases 
@@ -92,10 +121,16 @@
 ### - Governance
 ### - Migration
 
-
-
 ### Practical Projects to learn AWS
+____
+
+  [] Create Policy own reset password 
+  [] Down Size Instances EC2 
 
 
 
+
+
+### Resources 
+____
 
