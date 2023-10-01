@@ -128,9 +128,10 @@ ____
   [] Down Size Instances EC2 
 
 
-
-
-
 ### Resources 
 ____
+
+[A Cloud Guru](https://learn.acloud.guru/course/certified-solutions-architect-associate)
+
+
 
