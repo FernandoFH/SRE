@@ -34,7 +34,7 @@
    31 Regions (2 o more AZ)
    99 Availability Zone (Data Centers)
 
-![ Region & AZ](./images/Region_AZ.png)
+![Region & AZ](./images/Region_AZ.png)
 
  - Edge Locations
  - The AWS Management Console
@@ -85,7 +85,7 @@
 - Foramte JSON 
 - Example of a Policy document 
 
-![Example Policy](./images/ExamplePolicy.png =30x30 )
+![Example Policy](./images/ExamplePolicy.png){width=30%}
 
 ##### - IAM POLICY DOCUMENTS 
           - Groups: Functions, Contains users
@@ -121,7 +121,6 @@ Securing
 
 Key / Value / Version ID / Metadata 
 
-
 ### - EC2 
 ### - EBS and EFS 
 ### - Databases 
@@ -153,11 +152,6 @@ Key / Value / Version ID / Metadata
     - Stop spending money on undifferentiated lifting 
     - Analyze and attribute expenditure    
 
-Fuente: https://www.iteramos.com/pregunta/89805/cambiar-el-tamano-de-la-imagen-en-markdown-en-gitlab
-
-Fuente: https://www.iteramos.com/pregunta/89805/cambiar-el-tamano-de-la-imagen-en-markdown-en-gitlab
-
-Fuente: https://www.iteramos.com/pregunta/89805/cambiar-el-tamano-de-la-imagen-en-markdown-en-gitlab
 
 ### Practical Projects to learn AWS
 ---
@@ -168,7 +162,8 @@ Fuente: https://www.iteramos.com/pregunta/89805/cambiar-el-tamano-de-la-imagen-e
   - [X] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
   - [X] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
   - [X]  Down Size Instances EC2 
-
+  - [X]   Mult-Tier, Highly Available, Fault-Tolerant Web App  [Tutorial](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules)
+  
 ### Resources 
 ____
 
