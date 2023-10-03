@@ -98,8 +98,28 @@ Effect \ Action \ Resource
 - IAM is Universal 
 
 ### - S3 
+- Object Storage 
+- Scalable 
+- Simple 
 
+Basics 
+- Unlimited Storage 
+- Objects up to 5TB in Size 
+- S3 Buckets
 
+Working 
+- Universal Namespace 
+- S3 Urls 
+- Uploading Files 
+- Built for Availability (99.95% - 99.99%)
+- Designed For Durability (99.99%) 9decimales
+
+Securing 
+- Server-side Encryption 
+- Access Control Lists (ACLs)
+- Bucket Policies
+
+Key / Value / Version ID / Metadata 
 
 
 ### - EC2 
@@ -123,9 +143,21 @@ Effect \ Action \ Resource
 
 ### Practical Projects to learn AWS
 ____
+  [] Static Website Hosting on S3 (Route53/CloudFront/S3)
+  [] Create Policy own reset password (IAM)
+  [] CRUD APP Using ECS + LoadBalancing (Route53/LB/ECS/ECR/VPC/RDS-MySql)
+	[] API Hosting (Route53/Api Gateway/Lambda)
+  [] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
+  [] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
 
-  [] Create Policy own reset password 
+		5. LB - EC2 
+		(( ECS ))  
+
   [] Down Size Instances EC2 
+
+
+
+
 
 
 ### Resources 
