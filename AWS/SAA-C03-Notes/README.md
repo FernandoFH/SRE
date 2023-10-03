@@ -85,7 +85,7 @@
 - Foramte JSON 
 - Example of a Policy document 
 
-![Example Policy](./images/ExamplePolicy.png)
+![Example Policy](./images/ExamplePolicy.png =30x30 )
 
 ##### - IAM POLICY DOCUMENTS 
           - Groups: Functions, Contains users
@@ -153,8 +153,11 @@ Key / Value / Version ID / Metadata
     - Stop spending money on undifferentiated lifting 
     - Analyze and attribute expenditure    
 
+Fuente: https://www.iteramos.com/pregunta/89805/cambiar-el-tamano-de-la-imagen-en-markdown-en-gitlab
 
-  
+Fuente: https://www.iteramos.com/pregunta/89805/cambiar-el-tamano-de-la-imagen-en-markdown-en-gitlab
+
+Fuente: https://www.iteramos.com/pregunta/89805/cambiar-el-tamano-de-la-imagen-en-markdown-en-gitlab
 
 ### Practical Projects to learn AWS
 ---
