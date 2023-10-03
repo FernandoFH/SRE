@@ -157,6 +157,7 @@ Key / Value / Version ID / Metadata
   
 
 ### Practical Projects to learn AWS
+---
   - [X] Static Website Hosting on S3 (Route53/CloudFront/S3)
   - [X] Create Policy own reset password (IAM)
   - [X] CRUD APP Using ECS + LoadBalancing (Route53/LB/ECS/ECR/VPC/RDS-MySql)
@@ -164,7 +165,6 @@ Key / Value / Version ID / Metadata
   - [X] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
   - [X] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
   - [X]  Down Size Instances EC2 
-  - [X] Integer to Roman | Medium
 
 ### Resources 
 ____
