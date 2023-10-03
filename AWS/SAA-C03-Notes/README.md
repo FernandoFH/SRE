@@ -140,30 +140,38 @@ Key / Value / Version ID / Metadata
 ### - Caching 
 ### - Governance
 ### - Migration
+### - Well-Architected
+  - Operational Excellence 
+  - Security
+  - Reliability 
+  - Performace Efficiency
+  - Cost Optimization  
+
+    - Implement cloud financial mangement 
+    - Adopt consumption model 
+    - Measure overall efficiency 
+    - Stop spending money on undifferentiated lifting 
+    - Analyze and attribute expenditure    
+
+
+  
 
 ### Practical Projects to learn AWS
-____
-  [] Static Website Hosting on S3 (Route53/CloudFront/S3)
-  [] Create Policy own reset password (IAM)
-  [] CRUD APP Using ECS + LoadBalancing (Route53/LB/ECS/ECR/VPC/RDS-MySql)
-	[] API Hosting (Route53/Api Gateway/Lambda)
-  [] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
-  [] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
-
-		5. LB - EC2 
-		(( ECS ))  
-
-  [] Down Size Instances EC2 
-
-
-
-
-
+  - [X] Static Website Hosting on S3 (Route53/CloudFront/S3)
+  - [X] Create Policy own reset password (IAM)
+  - [X] CRUD APP Using ECS + LoadBalancing (Route53/LB/ECS/ECR/VPC/RDS-MySql)
+  - [X] API Hosting (Route53/Api Gateway/Lambda)
+  - [X] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
+  - [X] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
+  - [X]  Down Size Instances EC2 
+  - [X] Integer to Roman | Medium
 
 ### Resources 
 ____
 
-[A Cloud Guru](https://learn.acloud.guru/course/certified-solutions-architect-associate)
+- [New Here?](https://www.youtube.com/playlist?list=PL9nWRykSBSFigYYU-PV7u0fn5tn_ee-iu)
+
+- [A Cloud Guru | SAA-C03](https://learn.acloud.guru/course/certified-solutions-architect-associate)
 
 
 
