@@ -85,8 +85,6 @@
 - Foramte JSON 
 - Example of a Policy document 
 
-![Example Policy](./images/ExamplePolicy.png){width=30%}
-
 ##### - IAM POLICY DOCUMENTS 
           - Groups: Functions, Contains users
           - Users: A physical person
@@ -112,14 +110,73 @@ Working
 - S3 Urls 
 - Uploading Files 
 - Built for Availability (99.95% - 99.99%)
-- Designed For Durability (99.99%) 9decimales
+- Designed For Durability (99.99%) 9decimales mas
 
 Securing 
 - Server-side Encryption 
 - Access Control Lists (ACLs)
 - Bucket Policies
 
-Key / Value / Version ID / Metadata 
+Key-value Store 
+- Key 
+- Value
+- Version ID
+- Metadata 
+
+_S3 is a safe place to store your files_. 
+
+S3 Standard 
+  1. High Availability and Durability 
+      - 99.99% Availability
+      - 99.99999999999  Durability (11 9's)
+  2. Designed for Frequent Access
+  3. Suitable for Most Workloads 
+
+Securing your data 
+  1. Server-side Encryption 
+  2. Access Control Lists (ACLs)
+  3. Bucket Policies
+
+* Object ACLs: Work on an individual level
+* Bucket Policy: Work on an entire bucket level
+
+_Buckets are private by default_
+
+_Static Content: Use S3 to host static content only_
+
+_Automatic Scaling: S3 scales automatically with demand_ 
+
+Advantages of versioning 
+- All versions 
+- Lifecycle Rules 
+- BackUp 
+- Supports MFA 
+- Cannot Be Disable
+
+S3 Standard-Infrequent Access 
+- Rapid Access 
+- You Pay to Access the Data 
+- Use Cases 
+
+S3 Intelligent-Tiering 
+Glacier and Glacier Deep Archive
+- Glacier Instant Retrival 
+- Glacier Flexible Retrival (minutos or up 12h)
+- Glacier Deep Archive (48h)
+
+Lifecycle Management 
+- S3 Standard (Keep for 30 Days) -> S3 IA (After 30 Days) -> Glacier (After 90 Days)
+
+Serve-side Encryption 
+- SSE-S3: AES 256-bit 
+- SSE-KMS: Services-managed Keys 
+- SSE-C: Customer-provided keys
+
+Client-side Encryption
+- Encrypt the files yourselfd before you upload them to S3 
+
+S3 Replication 
+
 
 ### - EC2 
 ### - EBS and EFS 
@@ -155,14 +212,14 @@ Key / Value / Version ID / Metadata
 
 ### Practical Projects to learn AWS
 ---
-  - [X] Static Website Hosting on S3 (Route53/CloudFront/S3)
-  - [X] Create Policy own reset password (IAM)
-  - [X] CRUD APP Using ECS + LoadBalancing (Route53/LB/ECS/ECR/VPC/RDS-MySql)
-  - [X] API Hosting (Route53/Api Gateway/Lambda)
-  - [X] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
-  - [X] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
-  - [X]  Down Size Instances EC2 
-  - [X]   Mult-Tier, Highly Available, Fault-Tolerant Web App  [Tutorial](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules)
+  - [ ] Static Website Hosting on S3 (Route53/CloudFront/S3)
+  - [ ] Create Policy own reset password (IAM)
+  - [ ] CRUD APP Using ECS + LoadBalancing (Route53/LB/ECS/ECR/VPC/RDS-MySql)
+  - [ ] API Hosting (Route53/Api Gateway/Lambda)
+  - [ ] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
+  - [ ] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
+  - [ ]  Down Size Instances EC2 
+  - [ ]   Mult-Tier, Highly Available, Fault-Tolerant Web App  [Tutorial](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules)
   
 ### Resources 
 ____
