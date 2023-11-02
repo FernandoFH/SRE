@@ -1,10 +1,10 @@
 ### Terraform || [Official Site](https://www.terraform.io/)
 
 - Infraestructura mutable 
-![mutable img](/images/InfraMutable.png)
+![mutable img](../images/InfraMutable.png)
 
 - Infraestructura inmutable 
-![inmutableinmutable img](/images/InfraInmutable.png)
+![inmutableinmutable img](../images/InfraInmutable.png)
 
 - Lenguaje Declarativo (Que Hacer)
 - Procrdural o Imperativo (Como Hacerlo)

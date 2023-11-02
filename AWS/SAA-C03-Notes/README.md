@@ -167,6 +167,10 @@ Glacier and Glacier Deep Archive
 Lifecycle Management 
 - S3 Standard (Keep for 30 Days) -> S3 IA (After 30 Days) -> Glacier (After 90 Days)
 
+Encryption in Transit 
+- SSL/TLS
+- HTTPS
+
 Serve-side Encryption 
 - SSE-S3: AES 256-bit 
 - SSE-KMS: Services-managed Keys 
@@ -176,7 +180,6 @@ Client-side Encryption
 - Encrypt the files yourselfd before you upload them to S3 
 
 S3 Replication 
-
 
 ### - EC2 
 ### - EBS and EFS 
@@ -223,7 +226,6 @@ S3 Replication
   
 ### Resources 
 ____
-
 - [New Here?](https://www.youtube.com/playlist?list=PL9nWRykSBSFigYYU-PV7u0fn5tn_ee-iu)
 
 - [A Cloud Guru | SAA-C03](https://learn.acloud.guru/course/certified-solutions-architect-associate)
