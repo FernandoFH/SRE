@@ -222,7 +222,6 @@ S3 Replication
   - [ ] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
   - [ ] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
   - [ ]  Down Size Instances EC2 
-  - [ ]   Mult-Tier, Highly Available, Fault-Tolerant Web App  [Tutorial](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules)
   
 ### Resources 
 ____
