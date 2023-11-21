@@ -95,12 +95,12 @@ Effect \ Action \ Resource
 
 - IAM is Universal 
 
-### - S3 
+### - S3 (Simple Storage Service)
 - Object Storage 
 - Scalable 
 - Simple 
 
-Basics 
+S3 Basics 
 - Unlimited Storage 
 - Objects up to 5TB in Size 
 - S3 Buckets
@@ -125,13 +125,6 @@ Key-value Store
 
 _S3 is a safe place to store your files_. 
 
-S3 Standard 
-  1. High Availability and Durability 
-      - 99.99% Availability
-      - 99.99999999999  Durability (11 9's)
-  2. Designed for Frequent Access
-  3. Suitable for Most Workloads 
-
 Securing your data 
   1. Server-side Encryption 
   2. Access Control Lists (ACLs)
@@ -146,26 +139,57 @@ _Static Content: Use S3 to host static content only_
 
 _Automatic Scaling: S3 scales automatically with demand_ 
 
-Advantages of versioning 
+Advantages of versioning
 - All versions 
 - Lifecycle Rules 
 - BackUp 
 - Supports MFA 
 - Cannot Be Disable
 
-S3 Standard-Infrequent Access 
+## S3 Standard 
+  1. High Availability and Durability 
+      
+      - (>=3 AZs) 
+      - 99.99% Availability
+      - 99.99999999999  Durability (11 9's)
+  2. Designed for Frequent Access
+  3. Suitable for Most Workloads 
+
+## S3 Standard-Infrequent Access 
 - Rapid Access 
 - You Pay to Access the Data 
 - Use Cases 
 
-S3 Intelligent-Tiering 
+## S3 Zone-Infrequent Access 
+- Cost 20% less than regular S3 Standard-IA
+- Great for long-lived, infrequently accessed non-critical data
+
+## S3 Intelligent-Tiering 
 Glacier and Glacier Deep Archive
 - Glacier Instant Retrival 
 - Glacier Flexible Retrival (minutos or up 12h)
 - Glacier Deep Archive (48h)
-
+---
+![S3StorageClasses](./images/S3StorageClasses.png)
+---
+![S3ExamTipsCompare](./images/S3ExamTipsCompare.png)
+---
 Lifecycle Management 
 - S3 Standard (Keep for 30 Days) -> S3 IA (After 30 Days) -> Glacier (After 90 Days)
+
+Tips use Lifecycle Management 
+
+- Automates moving objects between different storages tiers 
+- Can be used in conjunction with versioning 
+- Can be applied to current versions and previous version  
+
+S3 Object Lock 
+- Write onces, read many (WORM model)
+- Can be on individual objects or applied across the bucket as a whole. 
+- Comes in two mode: Governance mode and compliance mode.  
+  
+  -  **Compliance** a portected object version can't be overwritten or deleted by any user, incliding the root user in your AWS accoount. 
+  -  **Governance** Users can't overwrite or delete an object version or alter its lock sttting unless they have special permissions. 
 
 Encryption in Transit 
 - SSL/TLS
@@ -176,12 +200,27 @@ Serve-side Encryption
 - SSE-KMS: Services-managed Keys 
 - SSE-C: Customer-provided keys
 
+- x-amz-server-side-encryption
+- Two options 
+- PUT Request Header 
+
 Client-side Encryption
 - Encrypt the files yourselfd before you upload them to S3 
 
+S3 optimizing 
+  - S3 Prefixes
+  - KMS Request rates
+
 S3 Replication 
+  - Replicate Objects from one bucket to another. 
+  - Not replicated automatically. 
+  - Delete markers are not replicated by default.
 
 ### - EC2 
+
+
+
+
 ### - EBS and EFS 
 ### - Databases 
 ### - VPC Networking 
