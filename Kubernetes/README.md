@@ -7,7 +7,10 @@
 - [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
 ---- https://www.bmc.com/blogs/kubernetes-services/
+
 ---- https://medium.com/@yusufkaratoprak/a-simple-golang-application-via-kubernetes-8a200235a45a
+
+---- https://github.com/FernandoFH/kubernetes-the-hard-way
 
 ### Temas 
 - Pods 
