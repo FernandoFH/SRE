@@ -324,6 +324,38 @@ Outpost family
 - Highly Available
 - Scalabe
 
+- General Purpose SSD (gp2)
+  - Suitable for boot disks and general applications
+  - Up to 16.000 IOPS per Volumen
+  - Up to 99.9% Durability
+- General Purpose SSD (gp3)
+  - Suitable for high performances applications
+  - Predictable 3,000 IOPS Baseline performance and 125 MiB/s Regardless of volumen size
+  - Up to 99.9% Durability
+- Provisioned IOPS SSD (io1)
+  - Suitable for OLTP and latency-sensitive applications
+  - 50 IOPS/GiB
+  - Up to 64,000 IOPS per volumen
+  - High performance and most expensive
+  - Up to 99.9% Durability
+- Provisioned IOPS SSD (io2)
+  - Suitable for OLTP and latency-sensitive applications
+  - 500 IOPS/GiB
+  - Up to 64,000 IOPS per volumen
+  - Up to 99.999% Durability
+  - Latest generation porvisiones IOPS volume
+- Throughput Optimized HDD (st1)
+  - Suitable for Big Data, data warehouses and ETL
+  - Max throughput is 500 MB/s per Volumen
+  - Cannot be a boot volume
+  - Up to 99.9% Durability
+- Cold HDD (SC1)
+  - Max throughput is 250 MB/s per Volumen
+  - Less frequently accessed data
+  - Cannot be a boot volume
+  - Lowest cost
+  - Up to 99.9% Durability
+
 ### - Databases
 
 ### - VPC Networking
