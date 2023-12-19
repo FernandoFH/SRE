@@ -350,13 +350,100 @@ Outpost family
   - Cannot be a boot volume
   - Up to 99.9% Durability
 - Cold HDD (SC1)
+
   - Max throughput is 250 MB/s per Volumen
   - Less frequently accessed data
   - Cannot be a boot volume
   - Lowest cost
   - Up to 99.9% Durability
 
+- **EFS (Amazon Elastic File System)**
+
+  - Managed NFS (Network file system) that can be mounted on many EC2 instances.
+  - EFS works with EC2 instances in multiple Avalaibility Zones.
+  - Highly available and scalable: however, it is expensive.
+
+  - Uses NFSv4 Protocol
+  - Windows not supported at this time
+  - Encryption at rest using KMS
+  - Scales automatically
+
+  - 1000s Concurrent connections
+  - 10 Gbps Throughput
+  - Petabytes Scaling
+
+- **FSx**
+
+  - Is built on windows Server
+
+- **AWS BackUp**
+  - Central Management
+  - Automation
+  - Improved Compleance
+
 ### - Databases
+
+- RDS
+- RDS is for OLTP Workloads
+
+#### Data Base Engine
+
+- SQL Server
+- Oracle
+- MySql
+- Amazon Aurora
+- Maria DB
+- PostgresSQL
+
+#### OLTP vs OLAP
+
+- Online Transaction Processing (OLTP)
+  - Trassaccional in real Time
+- Online Analytical Processing (OLAP)
+
+  - Complex Querys analize
+
+- Multi-AZ
+  - An Axact copy of your porduction database in another Available zone.
+  - Used for diaster recovery
+  - In the event of a failure, RDS will automatically fail over to the Stanby instance.
+- Read Replica
+  - A read-only copy of your promary database in the same AZ
+  - Used to increase or scale read performance
+  - Great fot read-heavy workloads and takes the load off primary database.
+
+#### Amazon Aurora
+
+- Database relacional
+- 2 Copies of your data are contained in each AZ, with min 3 AZ. 6 Copies of your data.
+- You can share Aurora snapshots with Other AWS Account
+- 3 Types of repplicas available: Aurora, MySql, PostgresSQL
+
+#### DynamoDB
+
+- NoSQL database
+- Sopports document and key-value data models.
+- Eventually consistent reads (Default)
+
+#### Atomic - Consistent - Isolated - Durable
+
+#### DocumentDB
+
+- NoSql Database
+
+#### Amazon Keysapces
+
+- Amazon's Apache cassadra database service.
+- Keysapces is serverless.
+
+#### Amazon Neptune
+
+- Graph Database
+
+#### Quantum Ledger Database (QLDB)
+
+- Ledger database: immutable, trasparent and has cryptographically
+-
 
 ### - VPC Networking
 
