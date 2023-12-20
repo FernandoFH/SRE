@@ -424,6 +424,9 @@ Outpost family
 - NoSQL database
 - Sopports document and key-value data models.
 - Eventually consistent reads (Default)
+- DynamoDB Point-in-time Recovery(PITR)
+  - Restore to any point in the last 35 Days
+  - No enable by befault
 
 #### Atomic - Consistent - Isolated - Durable
 
@@ -443,9 +446,58 @@ Outpost family
 #### Quantum Ledger Database (QLDB)
 
 - Ledger database: immutable, trasparent and has cryptographically
--
+
+#### Analyzing Time-series Data (Amazon Timestream )
+
+- IoT
+- Analytics
+- DevOps Applications
 
 ### - VPC Networking
+
+- Virtual data center in the cloud
+- Isolated part AWS cloud
+- Fully cumtomizable network
+
+![VPC Componets](./images/VPC_Componets.svg)
+
+- NAT gataways
+
+  - Network Address traslation
+  - Redundant inside the AZ
+  - Start at 5Gbps and scale currently to 45 Gbps
+  - No need to patch
+  - Not associated with security groups
+  - Automatically assigned a public IP Address
+
+- Security Groups
+
+  - Virtual Firewalls for an EC2 Instance.
+  - By default, everything is bloked.
+  - SG are statefull
+
+- Network ACLs
+
+  - The first line of defense
+  - A network access control list
+  - By default it allows all traffic.
+  - Block Ip address using ACLs Not SG.
+  - ACLs are stateless
+
+- VPC Endpoints
+
+  - Option 1: Interfaces Endpoint
+  - Option 2: Gataway Endpoint (S3 and DynamoDB)
+
+- VPC Peering
+
+  - Allows yoy to connet 1 VPC with another
+  - Transitive peering is not supported
+  - No overlapping CIDR address ranges
+
+- PivateLink
+  - Doesn't require VPC peering, no route table, Nat etc
+  - Requires a Network Load Balance on the service VPC and an ENI on customer VPC
 
 ### - Route 53
 
