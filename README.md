@@ -4,6 +4,13 @@
 ### Courses
  - [Mlops](https://www.coursera.org/specializations/mlops-machine-learning-duke)
 
+https://github.com/FernandoFH/awesome-scalability
+https://github.com/FernandoFH/awesome-platform-engineering
+https://github.com/FernandoFH/code-with-engineering-playbook
+https://github.com/FernandoFH/sre-interview-prep-guide
+
+https://github.com/FernandoFH/SoftwareArchitect
+
 # Site Reliability Engineering
 ### Concepts
   - [Linux](https://github.com/FernandoFH/SRE/blob/master/Servidores_Linux.md)
