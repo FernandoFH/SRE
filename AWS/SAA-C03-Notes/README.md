@@ -501,6 +501,33 @@ Outpost family
 
 ### - Route 53
 
+- DNS?
+
+  - Computer use DNS to convert domain names into IP Addresses.
+
+  - IPv4 - 32-bit
+  - IPv6 - 128 Bits
+
+- Record
+- TTL
+- CNAME (Canonical name)
+
+- Route 53 (7 Routing Policies Avalable)
+
+  - Simple Routing
+  - Weighted Routing
+  - Latancy-Based Routing
+  - Failover Routing
+  - Geolocation Routing
+  - Geoproximity Routing (Traffic Flow Only)
+  - Multivalue Answer Routing
+
+- Elastic Load Balancing
+  - Application Load Balancer
+  - Network Load Balancer
+  - Gataway Load Balancer
+  - Classic Load Balancer
+
 ### - Elastic Load Balancing
 
 ### - Security
@@ -552,6 +579,22 @@ Outpost family
 - [ ] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
 - [ ] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
 - [ ] Down Size Instances EC2
+- [ ] Manage Lifecycle BackUp
+
+- Full Wep App (Elastick Bean Storage)
+
+- Networking layer in Terrafrom
+
+  - VPC / Subnet / Routing
+  - Build a VPC
+  - Create Availability zone
+  - Define Subnets
+  - Update Route Tables
+  - Deploy EC2
+
+- Front/API Resumen Online
+- Dockerizar Web App
+- Build CI/CD Actions
 
 ### Resources
 
