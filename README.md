@@ -16,9 +16,10 @@ https://github.com/FernandoFH/SoftwareArchitect
 
 # Site Reliability Engineering
 ### Concepts
-  - [Linux](https://github.com/FernandoFH/SRE/blob/master/Servidores_Linux.md)
-  - [Git](https://github.com/FernandoFH/SRE/blob/master/GitHub_Note.md)
-  - [Fundamentos Arquitectura Software](https://github.com/FernandoFH/SRE/blob/master/Fundamentos_Arquitectura_Software.md)
+
+  - [Linux](https://github.com/FernandoFH/SRE/Notas/Servidores_Linux.md)
+  - [Git](https://github.com/FernandoFH/SRE/Notas/GitHub_Note.md)
+  - [Fundamentos Arquitectura Software](https://github.com/FernandoFH/SRE/Notas/Fundamentos_Arquitectura_Software.md)
 
 Topic | What to learn | Alternatives | Description
 :------|:------|:------|:------:
