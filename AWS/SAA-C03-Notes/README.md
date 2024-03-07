@@ -596,6 +596,13 @@ Outpost family
 - Dockerizar Web App
 - Build CI/CD Actions
 
+- Daily Task Scheduler Application using PartyRock (NO)
+- Image Labels Generator Using Amazon Rekognition
+- Develop a text narrator using Amazon Polly
+- Deploy a bucket list tracker application on AWS Amplify
+
+-
+
 ### Resources
 
 ---
