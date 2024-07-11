@@ -530,15 +530,75 @@ Outpost family
 
 ### - Elastic Load Balancing
 
--
+- Application Load Balancer
+
+  - Balancing HTTP and HTTPS Trafic
+  - Operate at layer 7
+  - Inteligent Load Balancer
+
+  - Listeners
+  - Rules
+  - Target Groups
+
+  - Only support HHTP and HTTPS
+
+- Network Load Balancer
+
+  - Operate at layer 4
+  - Performance Load Balancer
+
+  - Listeners
+  - Target Groups
+
+- Gataway Load Balancer
+
+  - Operate at layer 3
+  - For inline Virtual Appliance Load Balancig
+
+- Classic Load Balancer
+
+  - Operate at layer 4/7
+  - Classic/Test/Dev Load Balancer
+  - Legacy Load Balancer
+
+- Health Checks
+  - Use route traffic to instances or traget that are healthy
+
+### - Monitoring
+
+- CloudWatch
+
+  - System Metrics
+  - Application Metrics
+  - Alarms
+
+  - Log Event
+  - Log Stream
+  - Log Group
+
+  - Filter Patterens
+  - CloudWatch Logs Insights
+  - Alarms
+
+- Managed Grafana
+
+  - Container Metric Visualizations
+  - Internet of Things
+  - Troubleshooting
+
+- Managed Service for Pormnetheus
+  - Automatic Scaling
+  - Open-Source Pormetheus
+  - Desingned for High Availability
+  - Choose your Kubernetes
+  - PromQl
+  - Data Retention
 
 ### - Security
 
 ### - AI amd ML
 
 ### - Media
-
-### - Monitoring
 
 ### - High availability and scaling
 
