@@ -594,13 +594,63 @@ Outpost family
   - PromQl
   - Data Retention
 
+### - High availability and scaling
+
+- Vertical
+- Horizontal
+
+- The 3 W's of Scaling
+
+  - What do we sacale?
+  - Where do we scale?
+  - When do we scale?
+
+- Auto Sacaling Step
+
+  - Define Template
+  - Networking amd Purchasing
+  - ELB Configuration
+  - Set Scaling Policies
+  - Notifications
+
+- Auto Scaling Retrictions
+
+  - Minumun
+  - Maximun
+  - Desired
+
+- Lifecycle Hooks
+
+![Lifecycle Hooks](./images/LifecycleHooks.png)
+
+1. EC2 instance gets launched by EC2 Auto Scaling group
+
+2. WAIT state is entered via the Lifecycle Hooks capability
+
+3. While in the WAIT state, the instance runs a custom script via EC2 user data to install a proprietary application
+
+4. Script install and configure application
+
+5. Once the application is validated to be working correctly, the instance sends a complete-lifecycle-action command
+
+- Scaling Types
+  - Reactive Scaling
+  - Scheduled Scaling
+  - Predictive Scaling
+- Scale Out Aggressively
+- Scalle In Conservatively
+
+- 4 Ways to Scale
+  - Vertical Scaling
+  - Scaling Storage
+  - Read Replicas
+  - Aurora Serverless
+
 ### - Security
 
 ### - AI amd ML
 
 ### - Media
-
-### - High availability and scaling
 
 ### - Decoupling workflows
 
