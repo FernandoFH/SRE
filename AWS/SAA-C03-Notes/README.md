@@ -641,10 +641,47 @@ Outpost family
 - Scalle In Conservatively
 
 - 4 Ways to Scale
+
   - Vertical Scaling
   - Scaling Storage
   - Read Replicas
   - Aurora Serverless
+
+- Scaling Databases
+
+  - RDS has the most database scaling options
+  - Horizontal scaling is usully preferred over vertical
+  - Read replicas are your friends
+  - DynanoDB scaling comes down to access patterns
+
+- Disaster Recovery Strategies
+
+  - Recovery Point Objetive (RPO)
+  - Recovery Time Objective (RTO)
+
+  - Backup and Restore
+  - Pilot Light
+  - Warm Standby
+  - Active/Active Failover
+
+  - Simple Queue Services (SQS)
+  - Simple Notofication Service (SNS)
+  - API Gateway
+
+  - SQS
+
+    - Poll-based
+    - Delivery Deley. Default 0
+    - Message Size. 256 KB
+    - Encryption.
+    - Message retention. Default 4Days
+    - Long vs Short
+    - Queue Depth
+
+  - Dead-Letter Queues
+    - Cannot be porcessed successfully
+    - Works with SQS and SNS
+    -
 
 ### - Security
 
