@@ -1,4 +1,4 @@
-## SAA-C03
+### SAA-C03
 
 | Domains                                      |
 | -------------------------------------------- |
@@ -706,16 +706,61 @@ Outpost family
 ### - Well-Architected
 
 - Operational Excellence
+  - Perform Operations as code
+    - Think of your workload as a piece of sottware
+    - By turning operations into scripts & automating them
+  - Make frequent, small, reversible changes
+    - Make changes in small steps that can be undone
+    - This helps you deal with issues quickly
+  - Refine Operations Procedures frequently
+    - All about "Constant Improvement"
+    - As your workloads evolves, Proceduresshould also evolve
+    - Be on the lookout for ways to refine & streamline operations
+  - Anticipate failure
+    - Identify possible failures before they accur
+    - By regularly testing these scenarios
+  - Learn from Operational failures
+    - Every operational event / failure is a learning opportunity
+    - Use these lessons to build stronger, more resilient systems
+    - Sharing this knowledge can lead to significant improvements
 - Security
+  - Focuses on portecting data, system & assets
+  - Confidentiality of data
+  - Identity & Access management
+  - Controls to detect security threats
 - Reliability
-- Performace Efficiency
+  - Automatically Recover from failure
+    - Monitor important metrics closely
+    - Use automation to fix issues as soon as they aoccur
+    - Your system bounces back when something goes wrong
+  - Test Recovery Procedures
+    - Actively test how our systems handle failures
+    - Use automation to simulate different failure scenarios
+  - Horizontlly Scale to increase Aggregate workload Availability
+    - The goal is to spread workload across multiple small resources
+    - If one part fails, it won't shut down everything
+  - Stop Guessing capacity
+    - Manitor how much our systems ate being used
+    - Adjust our resources accordingly
+    - The goal is to have the exact resources we need
+  - Manage change Throgh automation
+    - Automate changes to our infrastructure
+    - This method ensures consistent, easily trackable and smooth running results
+- Performance Efficiency
+  - Using computing resources efficiently
+  - Maintaining the efficiency as changes occur
 - Cost Optimization
+  - Avoiding unnecessary cost
+  - Using the right type of resources
+  - Meking cost-effective decisions
 
-  - Implement cloud financial mangement
-  - Adopt consumption model
-  - Measure overall efficiency
-  - Stop spending money on undifferentiated lifting
-  - Analyze and attribute expenditure
+---
+
+- Implement cloud financial mangement
+- Adopt consumption model
+- Measure overall efficiency
+- Stop spending money on undifferentiated lifting
+- Analyze and attribute expenditure
 
 ### Practical Projects to learn AWS
 
@@ -752,6 +797,10 @@ Outpost family
 
 -
 
+### Master the AWS Solutions Architect Associate Exam in 2024
+
+---
+
 ### Resources
 
 ---
@@ -759,3 +808,5 @@ Outpost family
 - [New Here?](https://www.youtube.com/playlist?list=PL9nWRykSBSFigYYU-PV7u0fn5tn_ee-iu)
 
 - [A Cloud Guru | SAA-C03](https://learn.acloud.guru/course/certified-solutions-architect-associate)
+
+- [AWS SAA-C03 PRACTICE EXAM QUESTIONS - Master the AWS Solutions Architect Associate Exam in 2024!](https://www.youtube.com/watch?v=FhRQq7obZ64)
