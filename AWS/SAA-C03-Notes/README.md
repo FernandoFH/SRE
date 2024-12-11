@@ -797,6 +797,26 @@ Outpost family
 
 -
 
+### Revision for success
+
+- Focus on areas you feel the least comfortable
+- Practice Exam
+- Take a Break
+
+- Search for the answer yourself
+- Try to build it in an actual AWS Account
+- Checks the AWS FAQs
+- Post in our forums
+- Search again!
+
+### 5 Tips AWS Exam
+
+- Spot the distractors.
+- Watch for like "More", "least", etc.
+- The word soup is never right if it makes you laugh, it's wrong.
+- Word association is your friend.
+- Read Every answer least once.
+
 ### Master the AWS Solutions Architect Associate Exam in 2024
 
 ---
