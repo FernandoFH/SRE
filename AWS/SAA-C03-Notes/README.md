@@ -681,15 +681,72 @@ Outpost family
   - Dead-Letter Queues
     - Cannot be porcessed successfully
     - Works with SQS and SNS
-    -
+
+### - Decoupling workflows
+
+USER &rarr; FRONT &rarr; BACK
+
+- Simple Queue Service (SQS)
+- Simple Notofication Service (SNS)
+- API Gataway
+
+- Always loosely couple
+- Never Tighly couple
+- Ineternal and External
+- One Size
+
+- Simple Queue Service (SQS)
+
+  - Poll-based Messaging?
+
+- SQS Setting
+
+  - Delivery delay: Default 0; can be set up to 15 minutes.
+  - Message Size: Messages can be up to 256 KB of text in any format.
+  - Encrypt: Message are encrypted in trasit by default.
+  - Message Retention: Default is 4 days; can be set between 1 minutes and 14 days.
+  - Long vs Short: Long polling isn't the default, but it should be.
+  - Queue Depth: This can be trigger for autoscaling.
+
+- Sidelining Message with Dead-Letter Queues
+
+  - Dead-Letter Queue (DLQ) are targets for messages that cannot be processed successfully.
+  - Works with SQS and SNS!
+  - Useful for debugging applications and messages system
+  - Ability to isolate unconsumed messages to Troubleshoot
+  - Redrive capability allows you to move the message back into the source Queue
+  - These are technically just other SQS Queue
+  - DLQs Used with FIFO SQS Queue must ALSO be FIFO Queues.
+
+- Standard vs FIFO
+
+| Standard                                 | FIFO                        |
+| ---------------------------------------- | --------------------------- |
+| Best-effort ordering                     | Guarenteed ordering         |
+| Duplicate messages                       | No message duplication      |
+| Nearly unlimited transactions per second | 300 transactions per second |
+
+- Simple Notofication Service (SNS)
+
+  - Is a Push-based messaging service.
+  - It Proactively delivers messages to teh endpoints that are subscribed to it
+  - This can be used to alert a system or a person
+  - One message to many receivers
+
+- SNS Setting
+
+  - Subscribers: Kinesis data firehose, SQS Lambda, Email, HTTP(s), SMS, And platafrom apoplication endpoint.
+  - Message Size: Messages can be up to 256KB to text in any format.
+  - DLQ Support: Message that fail to be delivered can be stored in an SQS DLQ.
+  - FIFO or Standard: FIFO Only supports SQS FIFO queues as a Subscriber
+  - Encryption: Message are encryptedin trasitbe default. and ca add at-rest via AWS KMS
+  - access Policies: A resource policy cab be added to a topic. similar to S3. Useful for across-accoount access.
 
 ### - Security
 
 ### - AI amd ML
 
 ### - Media
-
-### - Decoupling workflows
 
 ### - Big data
 
