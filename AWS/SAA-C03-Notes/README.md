@@ -776,13 +776,150 @@ USER &rarr; FRONT &rarr; BACK
 - Currently support both Apache ActiveMQ or RabbitMQ engine Types
 - Allows you to easily leverage existeng apps without managing and maintaing your own system
 
+### Step Functions Overview
+
+- Serverless orchestration services
+- Graphical console
+- Main componentes are state machines and task
+- State Machine
+- Task. Specific states within a worflow
+- States Every single step within a worflow is consideraed a state
+
+| Standard                                                                | Express                                                            |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Have an exactly-one execution                                           | At-least-once workflow execution                                   |
+| Can run for up to one year                                              | Can run for up five minutes                                        |
+| Useful for long-runnig workflows that need to have an auditable history | Useful for high-event-rate workloads                               |
+| Rates up to 2.000 executions per second                                 | Example use is IoT data streaming and ingesrion                    |
+| Pricing based per state transition                                      | Pricing based on number of execution durations and memory consumed |
+
+### - Different States
+
+- Pass
+- Task
+- Choice
+- Wait
+- Succeed
+- Fail
+- Parallel
+- Map
+
+### AppFlow Overview
+
+- Fully managed integration service for exchaging data between SaaS apps and AWS Services
+- Pulls data records from third-party SaaS vendors and stores them in Amazon S3
+- Bi-directional data transfers with limited combinations
+
+### - Big data
+
+### The 3 Vx of Big Data
+
+- Volumen
+- Variety
+- Velocity
+
+### Amazon Redshift
+
+- Is a fully managed, petabyte-scale data warehouse services in the cloud
+- it's very large relational database traditionally used in big data applications
+- Recived its name due to desire to have people leave Oracle databases and levarege this AWS sevices instead
+
+- Size. Can hold up 16 PB of Data
+- Relational
+- Based on PostgresSQL
+- Usage
+- High Performance
+- Columnar
+
+### Elactic MapReduce (EMR)
+
+- ETL?
+
+  - Extract
+  - Trasform
+  - Load
+
+- EMR?
+
+An AWS Service to help with ETL Processing.
+
+Hadoop Distributed Files System (HDFS)
+EMR File System (EMRFS)
+Local file System
+
+### Purchasing Options and Cluster Types
+
+- On-Demand
+- Reserved
+- Spot
+- Long-Running or Temporary
+
+### Kinesis
+
+- Allows you ingest, process, and analyze real-time Streaming data. You can think of it as a huge data highway connected to your AWS accoount.
+
+### 2 Versions
+
+- Data Streams
+- Data FireHose
+
+### Athena?
+
+Is an interactive query services that makes it easy to analyze data in S3 using SQL.
+This Allows you to directly query data in your S3 Bucket without loading it into a database
+
+### Glue?
+
+Is a serverless data integration servioces that makes it easy to discover, prepare, and combine data.
+It allows you to perform ETL workloads without managing underlying servers.
+
+### Amazon QuckSight
+
+Fully managed, serverless business intellignce (BI) data Visualizations service.
+it allows you to easily create dashboards and shere them with specific users and groups.
+
+### AWS Data Pipeline
+
+Is a managed Extract, Trasform, Load (ETL) service for automating movement and transition of your data.
+
+- Data Driven
+- Parameters
+- Highly Available
+- Handling failures
+- AWS Storage Services
+- AWS Compute
+
+#### Amazon MSK
+
+- Fully Managed services for runnig data streaming Aplication that leverage Apache Kafka.
+- Providers control plane operations. Creates, Updates, and deletes cluster as required.
+- Data Plane, Leverage Kafka data-plane operationes for proceducing and cosuming streming data.
+- Existing Application, Open Source Version of apache Kafka allow support for existing apps tools, and plugins.
+
+### Important componentes
+
+- Broker Nodes
+- Zookeper Nodes
+- Cluster Operations
+- Producers, Consumers and Topics
+
+#### Amazon OpenSearch Services
+
+Is a managed services allowing you to run search and analiytics engines for varios use case.
+Is is the successor to Amazon ElasticSearch Service.
+
+- Quick Analysis
+- Scalable
+- Security
+- Stability
+- Flexible
+- Integrations
+
 ### - Security
 
 ### - AI amd ML
 
 ### - Media
-
-### - Big data
 
 ### - Serverless architecture
 
