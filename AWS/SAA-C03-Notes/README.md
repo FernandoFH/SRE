@@ -740,7 +740,41 @@ USER &rarr; FRONT &rarr; BACK
   - DLQ Support: Message that fail to be delivered can be stored in an SQS DLQ.
   - FIFO or Standard: FIFO Only supports SQS FIFO queues as a Subscriber
   - Encryption: Message are encryptedin trasitbe default. and ca add at-rest via AWS KMS
-  - access Policies: A resource policy cab be added to a topic. similar to S3. Useful for across-accoount access.
+  - Access Policies: A resource policy cab be added to a topic. similar to S3. Useful for across-accoount access.
+
+- API Gateway
+
+  - Is a fully managed services that allows you to easily publish create, mantein, monitor, and secure your API.
+
+- AWS Batch
+
+  - Run batch computing workloads
+  - Makes Thing Simpler
+  - Automatically Provision and Scale
+  - No Install Requiered!
+
+  - Jobs
+  - Job Definitions
+  - Job Queues
+  - Compute Environment
+
+- Fargate vs EC2
+
+| Fargate                                 | EC2                                       |
+| --------------------------------------- | ----------------------------------------- |
+| Recommneded Approach for most Workloads | Need more control over instance selection |
+| Require fast start times (<30Seg)       | Require GPUs                              |
+| Require 16vCPU or less                  | Require Elastic Fabric Adapter            |
+| Require no GPUs                         | Require Cistim AMIs                       |
+| Require 120 GiB of Memory or less       | High levels of concurrency                |
+|                                         | Require access to Linux Parameters        |
+
+### Amazon MQ Overview
+
+- Message broker services allowing easier migrate of existing applications to the AWS Cloud
+- Leverages multiples programming language, operating systems, and messaging protocols
+- Currently support both Apache ActiveMQ or RabbitMQ engine Types
+- Allows you to easily leverage existeng apps without managing and maintaing your own system
 
 ### - Security
 
