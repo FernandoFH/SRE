@@ -833,7 +833,7 @@ USER &rarr; FRONT &rarr; BACK
 
 ### Elactic MapReduce (EMR)
 
-- ETL?
+- ETL
 
   - Extract
   - Trasform
@@ -915,13 +915,28 @@ Is is the successor to Amazon ElasticSearch Service.
 - Flexible
 - Integrations
 
+### - Serverless
+
+Physical Data Centers
+Virtualization
+The Cloud
+Seververless
+
+### Benefists of serverless
+
+- Ease of use
+- Event Based
+- Billing Model
+
+### AWS Lambda
+
+Serverless compute service that lest you run code without porvisioning or managing the underlyng servers.
+
 ### - Security
 
 ### - AI amd ML
 
 ### - Media
-
-### - Serverless architecture
 
 ### - Automation
 
@@ -1023,8 +1038,6 @@ Is is the successor to Amazon ElasticSearch Service.
 - Develop a text narrator using Amazon Polly
 - Deploy a bucket list tracker application on AWS Amplify
 
--
-
 ### Revision for success
 
 - Focus on areas you feel the least comfortable
@@ -1051,10 +1064,16 @@ Is is the successor to Amazon ElasticSearch Service.
 
 ### Resources
 
----
-
 - [New Here?](https://www.youtube.com/playlist?list=PL9nWRykSBSFigYYU-PV7u0fn5tn_ee-iu)
 
 - [A Cloud Guru | SAA-C03](https://learn.acloud.guru/course/certified-solutions-architect-associate)
 
+---
+
+### Exam Guide
+
 - [AWS SAA-C03 PRACTICE EXAM QUESTIONS - Master the AWS Solutions Architect Associate Exam in 2024!](https://www.youtube.com/watch?v=FhRQq7obZ64)
+
+- [Everything you need to know about the SAA-C03 Exam for the AWS Solutions Architect Associate](https://www.youtube.com/watch?v=6OldWhKIBVE)
+
+- [AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide](./images/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
