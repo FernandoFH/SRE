@@ -51,8 +51,94 @@
 #### - Compute
 
 - EC2
+  **Nombre de las instancias**
+- Familia o tipo general
+- Generación del procesador utilizado.
+- Cracterísticas específicas del procesador (opcional)
+- Punto seguido del tamaño
+
+**Ciclo de vida de una instancias**
+![LifeCycleEC2](./images/LifeCycleEC2.png)
+
+**Amazon Machine Images (AMIs):** son plantillas que contienen la configuración de software necesaria para lanzar instancias.
+
+```bash
+# Ejemplo de creación de AMI desde una instancia existente
+aws ec2 create-image --instance-id i-1234567890abcdef0 --name "Mi-AMI-Personalizada" --description "AMI para servidores web"
+```
+
+**Launch Templates**
+
+```bash
+# Ejemplo de creación de Launch Template
+aws ec2 create-launch-template --launch-template-name MiTemplate --version-description "Versión 1" --launch-template-data file://config.json
+```
+
+**Placement Groups** determinan cómo se distribuyen físicamente nuestras instancias EC2 en la infraestructura subyacente de AWS
+
+![PlacementGroup](./images/PlacementGroup.png)
+
+```bash
+# Ejemplo de creación de un Placement Group tipo Cluster
+aws ec2 create-placement-group --group-name MyClusterPG --strategy cluster
+```
+
+**Tenancy**, EC2 ofrece tres opciones:
+
+- Shared Tenancy (Default): Múltiples clientes comparten el mismo hardware físico
+- Dedicated Instances: Instancias que se ejecutan en hardware dedicado a un solo cliente
+- Dedicated Hosts: Servidor físico completo dedicado a un solo cliente, con visibilidad de sockets y cores
+
+### Networking en EC2
+
+- Elastic Network Adapter (ENA)
+
+  - Ancho de banda de hasta 100 Gbps
+  - Menor latencia
+  - Mayor rendimiento de paquetes por segundo (PPS)
+  - Menor utilización de CPU
+
+- Elastic Network Interface (ENI)
+  - Cada instancia tiene una ENI primaria que no se puede desconectar
+  - Puedes crear ENIs adicionales y conectarlas a tus instancias
+  - Las ENIs permanecen incluso si la instancia se termina
+  - Pueden moverse entre instancias (útil para failover)
+
+```bash
+# Ejemplo de creación de una ENI
+aws ec2 create-network-interface --subnet-id subnet-12345abc --description "Mi ENI secundaria"
+```
+
+- Elastic Fabric Adapter (EFA)
+
+  - Proporciona comunicación entre instancias de baja latencia
+  - Utiliza "OS-bypass" para comunicación directa con el hardware
+  - Esencial para aplicaciones HPC y machine learning
+  - Compatible con la interfaz de paso de mensajes (MPI)
+
+### AWS Outpost
+
+Permite ejecutar aplicaciones y servicios de AWS directamente en las instalaciones propias, ofreciendo latencia ultra baja y gestión unificada. A través de Outpost se tienen dos opciones principales:
+
+**Servidores Outpost:**
+**Una unidad de rack:** con procesadores Graviton, proporciona 64 CPU virtuales, 128 GB de RAM y 4 TB de almacenamiento.
+**Dos unidades de rack:** utiliza procesadores Intel y duplica la capacidad.
+
+### Elastic Beanstalk
+
+El despliegue rápido y efectivo de aplicaciones web iniciales es fundamental para cualquier proyecto tecnológico. AWS Elastic Beanstalk facilita esta tarea permitiendo desplegar y administrar aplicaciones sin preocuparse excesivamente por la infraestructura subyacente y otros detalles técnicos.
+
+### Contenedores vs. Máquinas Virtuales
+
+![ContenedoresVM](./images/ContenedoresVM.png)
+
 - Lambda
-- Elastic Beanstalk
+
+- Batch
+- Outpost
+
+- Propósito general: Chip Graviton, procesador creado por AWS para tareas comunes.
+- Específicos o aceleradores: Tranium para entrenamiento de inteligencia artificial e Inferentia para inferencia en modelos de aprendizaje automático.
 
 #### - Storage
 
@@ -75,6 +161,28 @@
 - Route 53
 - API Gateway
 - AWS Global Acelerator
+
+- IGW
+- NACL
+- Subnet
+- NAT Gateway
+- EIP
+- Route Table
+- SG
+
+- CIDR: Classless Inter-Domain Routing (CIDR) is a compact way to write IP address ranges and their network masks.
+
+Las 5 IPs que AWS reserva y por qué?
+
+AWS reserva automáticamente 5 direcciones IP en cada subred para su propio uso interno:
+
+10.0.0.0 → Identificador de red
+10.0.0.1 → Gateway de la VPC
+10.0.0.2 → Servidor DNS de AWS
+10.0.0.3 → Reservada para uso futuro
+10.0.0.255 → Dirección de broadcast (aunque no se usa, está reservada)
+
+Estas direcciones no las podemos usar en nuestras instancias ni servicios
 
 #### Wel-Architected Framework
 
@@ -501,11 +609,11 @@ Outpost family
 
 ### - Route 53
 
-- DNS?
+- DNS
 
   - Computer use DNS to convert domain names into IP Addresses.
 
-  - IPv4 - 32-bit
+  - IPv4 - 32 Bits
   - IPv6 - 128 Bits
 
 - Record
@@ -523,10 +631,10 @@ Outpost family
   - Multivalue Answer Routing
 
 - Elastic Load Balancing
-  - Application Load Balancer
-  - Network Load Balancer
-  - Gataway Load Balancer
-  - Classic Load Balancer
+  - Application Load Balancer (7 HTTP/HTTPS) - Webs Apps, Microservices, Content-Based Routing
+  - Network Load Balancer - (4 TCP/UDP) - High-performance, Low-latency, gaming, Real-time System.
+  - Gataway Load Balancer - (3/4) - Deploying and scaling third-part virtual app like firewalls, detection/prevertion system
+  - Classic Load Balancer - Support both HTTP/HTTPS layer 7 nad TCP Layer 4
 
 ### - Elastic Load Balancing
 
@@ -928,11 +1036,103 @@ Seververless
 - Event Based
 - Billing Model
 
-### AWS Lambda
+## AWS Lambda
 
 Serverless compute service that lest you run code without porvisioning or managing the underlyng servers.
 
+### Features
+
+- Pricing
+- Integrations
+- Built-in Monitoring
+- Easy Configuration
+- Execition Length
+- Runtime Support
+
+### Configiration
+
+- Runtine
+- Permissions
+- Networking
+- Resources
+- Trigger
+
+### AWS Fargate (Serverless Containers)
+
+AWS Fargate is a severless compute engine for docker containers
+AWS Owns and manages the infrastructure
+Requires use of ECS or EKS
+
+## EventBridge
+
+- Event
+- Rules
+- Event Bus
+
+## Amazon ECR
+
+- Regisrty
+- Private
+- Supported Formats
+
+## EKS Anywhere
+
+- Control Plane
+- Location
+- Update
+- Curated Packages
+- Entreprise subscripcion
+
+## ECS Anywhere
+
+- No orchestration needed
+- Complety managed
+- Inbound traffic
+- External
+
+### ECS o EKS
+
+![EKSyECS](./images/EKSyECS.png)
+
+**Terminología difiere entre ambos servicios:**
+
+![DifferentesTerminosECSyEKS](./images/DifferentesTerminosECSyEKS.png)
+
 ### - Security
+
+### DDoS Attack
+
+- A Distributed denial of service
+
+- Shield
+- Shield Abanced
+- Free DDoS
+- WAF operate in layer 7
+- PII - Personally identifiable information
+- Amazon Inspector
+
+### KMS
+
+- AWS Key Management Services is a managed service that makes it easy for you create and control the encryption keys used to encrypt your data
+- (CMK) Customer master key.
+- (HSM) Hardware Securiruy Module.
+- CloudHSM
+
+### AWS Organizations
+
+- Raiz de la Organizacion
+- Unidad Organizativa
+- Cuentas Miembros
+
+### Control Tower
+
+### Secrets Manager
+
+### Parameter Store
+
+### Amazon Resource Names (ARNs)
+
+- arn:partition:service:region:account_id
 
 ### - AI amd ML
 
@@ -1005,38 +1205,7 @@ Serverless compute service that lest you run code without porvisioning or managi
 - Stop spending money on undifferentiated lifting
 - Analyze and attribute expenditure
 
-### Practical Projects to learn AWS
-
 ---
-
-- [ ] Static Website Hosting on S3 (Route53/CloudFront/S3)
-- [ ] Create Policy own reset password (IAM)
-- [ ] CRUD APP Using ECS + LoadBalancing (Route53/LB/ECS/ECR/VPC/RDS-MySql)
-- [ ] API Hosting (Route53/Api Gateway/Lambda)
-- [ ] Data Processing Pipeline Twitter (Kinesis/S3/Lambda/ElasticSearch/Kibana)
-- [ ] Distributed Serverless Workflow for Stock Proce Movements (Yahoo!/CloudWatch/SQS/Lambda/DynamoDB/Lambda/SES)
-- [ ] Down Size Instances EC2
-- [ ] Manage Lifecycle BackUp
-
-- Full Wep App (Elastick Bean Storage)
-
-- Networking layer in Terrafrom
-
-  - VPC / Subnet / Routing
-  - Build a VPC
-  - Create Availability zone
-  - Define Subnets
-  - Update Route Tables
-  - Deploy EC2
-
-- Front/API Resumen Online
-- Dockerizar Web App
-- Build CI/CD Actions
-
-- Daily Task Scheduler Application using PartyRock (NO)
-- Image Labels Generator Using Amazon Rekognition
-- Develop a text narrator using Amazon Polly
-- Deploy a bucket list tracker application on AWS Amplify
 
 ### Revision for success
 
@@ -1074,6 +1243,19 @@ Serverless compute service that lest you run code without porvisioning or managi
 
 - [AWS SAA-C03 PRACTICE EXAM QUESTIONS - Master the AWS Solutions Architect Associate Exam in 2024!](https://www.youtube.com/watch?v=FhRQq7obZ64)
 
-- [Everything you need to know about the SAA-C03 Exam for the AWS Solutions Architect Associate](https://www.youtube.com/watch?v=6OldWhKIBVE)
+- ✅ [Everything you need to know about the SAA-C03 Exam for the AWS Solutions Architect Associate](https://www.youtube.com/watch?v=6OldWhKIBVE)
 
-- [AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide](./images/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
+| Week | Road Map                                                    | Sources      | Start     | End | Status        |
+| ---- | ----------------------------------------------------------- | ------------ | --------- | --- | ------------- |
+| 1    | Curso de AWS Certified Solutions Architect Associate        | Platzi       | 18/JUL/25 |     | In Process 🟡 |
+| 2    | Learn Cantrill                                              | Cantrill     |           |     |               |
+| 3    | AWS Certified Solutions Architect Associate 2025 – SAA-C03  | Udemy        |           |     |               |
+| 4    | Ultimate AWS Certified Solutions Architect Associate 2025   | Udemy        |           |     |               |
+| 5    | AWS Certified Solutions Architect Associate - Hands-On+Exam |              |           |     |               |
+|      | AWS Certified Solutions Architect - Associate               | Exam SAA-C03 | 12/AGU/25 |     |               |
+
+/17
+/24
+/31
+/07
+/11
