@@ -182,6 +182,15 @@ AWS reserva automáticamente 5 direcciones IP en cada subred para su propio uso 
 10.0.0.3 → Reservada para uso futuro
 10.0.0.255 → Dirección de broadcast (aunque no se usa, está reservada)
 
+**CIDR Blocks**
+
+- Cada VPC se define mediante un bloque CIDR (Classless Inter-Domain Routing):
+
+- Define el rango de direcciones IP disponibles
+- Utiliza notación x.x.x.x/y donde /y es la máscara de red
+- Tamaño mínimo: /28 (16 direcciones IP)
+- Tamaño máximo: /16 (65,536 direcciones IP)
+
 Estas direcciones no las podemos usar en nuestras instancias ni servicios
 
 #### Wel-Architected Framework
@@ -323,6 +332,8 @@ Tips use Lifecycle Management
 - Automates moving objects between different storages tiers
 - Can be used in conjunction with versioning
 - Can be applied to current versions and previous version
+
+## ![S3 Levels](./images/LevelsS3.png)
 
 S3 Object Lock
 
@@ -670,7 +681,12 @@ Outpost family
   - Legacy Load Balancer
 
 - Health Checks
+
   - Use route traffic to instances or traget that are healthy
+
+- Campare ELB
+
+![Compare LB](./images/Compare_ELB.png)
 
 ### - Monitoring
 
@@ -1146,6 +1162,23 @@ Requires use of ECS or EKS
 
 ### - Migration
 
+- Retirar: Aplicaciones obsoletas que ya no se utilizan en la empresa pueden eliminarse.
+- Retener: Aplicaciones que deben mantenerse localmente por regulaciones, rendimiento o residencia de datos.
+- Refactorizar: Implica rediseñar la aplicación, desarrollar nuevo código y gestionar integralmente su ciclo de vida y la integración.
+- Recomprar: Migrar a una solución disponible en la nube como software as a service, reemplazando una solución existente.
+- Replataformar: Migración que conlleva modificaciones en la agrupación de servicios o infraestructura.
+- Rehospedar: Movilizar sin modificaciones significativas la infraestructura actual hacia la nube, pudiendo realizarse de modo manual o automatizado.
+- Reubicar: Estrategia especializada en trasladar entornos virtualizados con VMware hacia AWS mediante VMware Cloud, simplificando el proceso como un hypervisor level shift and shift.
+
+AWS cuenta con una variedad de servicios clave que facilitan la migración e integración con ambientes locales:
+
+DataSync: Facilita la migración automatizada y acelerada de grandes volúmenes de datos.
+Transfer Family: Para transferencia segura y eficiente de archivos.
+Storage Gateway: Almacenamiento híbrido que permite integración local y en la nube.
+Migration Hub: Centraliza y monitorea el estatus de la migración de cada aplicación.
+DMS (Database Migration Service): Especializado en migración de bases de datos.
+Snow Family: Soluciones offline para transferencias de grandes volúmenes de datos de forma física y segura.
+
 ### - Well-Architected
 
 - Operational Excellence
@@ -1227,35 +1260,33 @@ Requires use of ECS or EKS
 - Word association is your friend.
 - Read Every answer least once.
 
-### Master the AWS Solutions Architect Associate Exam in 2024
-
 ---
 
-### Resources
+### Workshops
 
-- [New Here?](https://www.youtube.com/playlist?list=PL9nWRykSBSFigYYU-PV7u0fn5tn_ee-iu)
+[From VMs to cloud-native - An AWS modernization journey](https://catalog.us-east-1.prod.workshops.aws/workshops/051f698a-5440-4123-93f6-0c32375a63c9/en-US)
 
-- [A Cloud Guru | SAA-C03](https://learn.acloud.guru/course/certified-solutions-architect-associate)
+[AWS Database Migration Workshop](https://catalog.workshops.aws/databasemigration/en-US)
 
----
+[Migrating SQL Server database to Amazon RDS for SQL Server using Database Migration Service (DMS)](https://catalog.workshops.aws/dmwrdssql/en-US)
+
+[SAP ASE (Sybase) to Amazon RDS for SQL Server Migration Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/d806c678-7a11-4aa0-8a42-c15f0d9fbb33/en-US)
 
 ### Exam Guide
+
+- [New Here?](https://www.youtube.com/playlist?list=PL9nWRykSBSFigYYU-PV7u0fn5tn_ee-iu)
 
 - [AWS SAA-C03 PRACTICE EXAM QUESTIONS - Master the AWS Solutions Architect Associate Exam in 2024!](https://www.youtube.com/watch?v=FhRQq7obZ64)
 
 - ✅ [Everything you need to know about the SAA-C03 Exam for the AWS Solutions Architect Associate](https://www.youtube.com/watch?v=6OldWhKIBVE)
 
-| Week | Road Map                                                    | Sources      | Start     | End | Status        |
-| ---- | ----------------------------------------------------------- | ------------ | --------- | --- | ------------- |
-| 1    | Curso de AWS Certified Solutions Architect Associate        | Platzi       | 18/JUL/25 |     | In Process 🟡 |
-| 2    | Learn Cantrill                                              | Cantrill     |           |     |               |
-| 3    | AWS Certified Solutions Architect Associate 2025 – SAA-C03  | Udemy        |           |     |               |
-| 4    | Ultimate AWS Certified Solutions Architect Associate 2025   | Udemy        |           |     |               |
-| 5    | AWS Certified Solutions Architect Associate - Hands-On+Exam |              |           |     |               |
-|      | AWS Certified Solutions Architect - Associate               | Exam SAA-C03 | 12/AGU/25 |     |               |
+| Day | Road Map                                                    | Sources  | Start     | End       | Status  |
+| --- | ----------------------------------------------------------- | -------- | --------- | --------- | ------- |
+| 1   | Curso de AWS Certified Solutions Architect Associate        | Platzi   | 20/AGU/25 | 26/AGU/25 | Done ✅ |
+| 2   | Learn Cantrill                                              | Cantrill | 09/SEP/25 |           |         |
+| 3   | Ultimate AWS Certified Solutions Architect Associate 2025   | Udemy    |           |           |         |
+| 4   | AWS Certified Solutions Architect Associate 2025 – SAA-C03  | Udemy    |           |           |         |
+| 5   | AWS Certified Solutions Architect Associate - Hands-On+Exam |          |           |           |         |
+| 6   | SAA-C03: AWS Certified Solutions Architect - Associate      | Exam     | 30/SEP/25 |           |         |
 
-/17
-/24
-/31
-/07
-/11
+🟡 Pluralsight
