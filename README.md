@@ -11,8 +11,15 @@
 - Karate
 - Selenium
 - SonarQube
-
-
+- Terrafrom
+- LacalStack
+- Kubernest
+- OWASP Threat Dragon
+- OWASP dependency-check
+- Trivy
+- Semgrep
+- Falco
+- Ansible 
 
 <p align="center"><img src="images/devops_exercises.png"/></p>
 
