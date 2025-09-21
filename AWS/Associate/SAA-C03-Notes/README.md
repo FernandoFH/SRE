@@ -1283,10 +1283,16 @@ Snow Family: Soluciones offline para transferencias de grandes volúmenes de dat
 | Day | Road Map                                                    | Sources  | Start     | End       | Status  |
 | --- | ----------------------------------------------------------- | -------- | --------- | --------- | ------- |
 | 1   | Curso de AWS Certified Solutions Architect Associate        | Platzi   | 20/AGU/25 | 26/AGU/25 | Done ✅ |
-| 2   | Learn Cantrill                                              | Cantrill | 09/SEP/25 |           |         |
-| 3   | Ultimate AWS Certified Solutions Architect Associate 2025   | Udemy    |           |           |         |
-| 4   | AWS Certified Solutions Architect Associate 2025 – SAA-C03  | Udemy    |           |           |         |
-| 5   | AWS Certified Solutions Architect Associate - Hands-On+Exam |          |           |           |         |
-| 6   | SAA-C03: AWS Certified Solutions Architect - Associate      | Exam     | 30/SEP/25 |           |         |
+| 2   | AWS Certified Solutions Architect - Associate (SAA-C03)     | Cantrill | 18/SEP/25 |           |         |
+| 3   | AWS Certified Solutions Architect Associate (SAA-C03)       | Packt    | 18/SEP/25 |           |         |
+|     | Ultimate AWS Certified Solutions Architect Associate 2025   | Udemy    |           |           |         |
+|     | AWS Certified Solutions Architect Associate 2025 – SAA-C03  | Udemy    |           |           |         |
+|     | AWS Certified Solutions Architect Associate - Hands-On+Exam |          |           |           |         |
+|     | SAA-C03: AWS Certified Solutions Architect - Associate      | Exam     | 30/SEP/25 |           |         |
+
+🟡 Packt
 
 🟡 Pluralsight
+
+Learn AI and Get started in Al and Cloud with this basic and easy AWS project
+Beginner AI Cloud CV Porjects
