@@ -1,3 +1,19 @@
+- Git / Gitlab 
+- git-flow
+- Python
+- Bash
+- Jenkis
+- Linux
+- Docker 
+- Promiteus
+- Grfana
+- ELK
+- Karate
+- Selenium
+- 
+
+
+
 <p align="center"><img src="images/devops_exercises.png"/></p>
 
 :information_source: &nbsp;This repo contains questions and exercises on various technical topics, sometimes related to DevOps and SRE
