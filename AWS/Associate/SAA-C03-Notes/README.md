@@ -204,6 +204,12 @@ Estas direcciones no las podemos usar en nuestras instancias ni servicios
 
 ### - IAM
 
+AWS Account <-- FULL TRUST --> IAM
+
+| User                                                                                | Group                                                            | Roles                                                                        |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Identities which represent humans or applications that need access to your account. | Collection of related users e.g. development team, finance or HR | Can be used by AWS Services, or for granting external access to your account |
+
 - Create users and grant permissions to those users
 - Create groups and roles
 - Control access to AWS resources
@@ -214,6 +220,7 @@ Estas direcciones no las podemos usar en nuestras instancias ni servicios
 
 ### IAM Policy
 
+- Allow or Deny Access to AWS Services
 - Foramte JSON
 - Example of a Policy document
 
@@ -224,6 +231,8 @@ Estas direcciones no las podemos usar en nuestras instancias ni servicios
           - Roles: Internal usage within AWS
 
 Effect \ Action \ Resource
+
+Authorize \ Authenticate \ Manages identirties
 
 ##### The Principle of Least Privilege
 
@@ -1291,7 +1300,6 @@ Snow Family: Soluciones offline para transferencias de grandes volúmenes de dat
 |     | SAA-C03: AWS Certified Solutions Architect - Associate      | Exam     | 30/SEP/25 |           |         |
 
 🟡 Packt
-
 🟡 Pluralsight
 
 Learn AI and Get started in Al and Cloud with this basic and easy AWS project
